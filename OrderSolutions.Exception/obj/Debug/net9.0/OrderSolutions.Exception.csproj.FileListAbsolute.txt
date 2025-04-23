@@ -1,0 +1,35 @@
+/home/henriquebacarin/study/dotnet/OrderSolution/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.deps.json
+/home/henriquebacarin/study/dotnet/OrderSolution/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.dll
+/home/henriquebacarin/study/dotnet/OrderSolution/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.pdb
+/home/henriquebacarin/study/dotnet/OrderSolution/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.GeneratedMSBuildEditorConfig.editorconfig
+/home/henriquebacarin/study/dotnet/OrderSolution/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.AssemblyInfoInputs.cache
+/home/henriquebacarin/study/dotnet/OrderSolution/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.AssemblyInfo.cs
+/home/henriquebacarin/study/dotnet/OrderSolution/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.csproj.CoreCompileInputs.cache
+/home/henriquebacarin/study/dotnet/OrderSolution/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.sourcelink.json
+/home/henriquebacarin/study/dotnet/OrderSolution/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.dll
+/home/henriquebacarin/study/dotnet/OrderSolution/OrderSolutions.Exception/obj/Debug/net9.0/refint/OrderSolutions.Exception.dll
+/home/henriquebacarin/study/dotnet/OrderSolution/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.pdb
+/home/henriquebacarin/study/dotnet/OrderSolution/OrderSolutions.Exception/obj/Debug/net9.0/ref/OrderSolutions.Exception.dll
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolutions.Exception\bin\Debug\net9.0\OrderSolutions.Exception.deps.json
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolutions.Exception\bin\Debug\net9.0\OrderSolutions.Exception.dll
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolutions.Exception\bin\Debug\net9.0\OrderSolutions.Exception.pdb
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\OrderSolutions.Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\OrderSolutions.Exception.AssemblyInfoInputs.cache
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\OrderSolutions.Exception.AssemblyInfo.cs
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\OrderSolutions.Exception.csproj.CoreCompileInputs.cache
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\OrderSolutions.Exception.sourcelink.json
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\OrderSolutions.Exception.dll
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\refint\OrderSolutions.Exception.dll
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\OrderSolutions.Exception.pdb
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\ref\OrderSolutions.Exception.dll
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolutions.Exception\bin\Debug\net9.0\OrderSolutions.Exception.deps.json
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolutions.Exception\bin\Debug\net9.0\OrderSolutions.Exception.dll
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolutions.Exception\bin\Debug\net9.0\OrderSolutions.Exception.pdb
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\OrderSolutions.Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\OrderSolutions.Exception.AssemblyInfoInputs.cache
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\OrderSolutions.Exception.AssemblyInfo.cs
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\OrderSolutions.Exception.csproj.CoreCompileInputs.cache
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\OrderSolutions.Exception.dll
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\refint\OrderSolutions.Exception.dll
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\OrderSolutions.Exception.pdb
+C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolutions.Exception\obj\Debug\net9.0\ref\OrderSolutions.Exception.dll

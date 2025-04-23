@@ -1,0 +1,37 @@
+[
+  {
+    "ContainingType": "OrderSolution.API.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "OrderSolution.Comunication.Requests.RequestUserRegisterJson",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderSolution.Comunication.Responses.ResponseUserRegisterJson",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "OrderSolution.Comunication.Responses.ExceptionRegisterUserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 406
+      }
+    ]
+  }
+]
