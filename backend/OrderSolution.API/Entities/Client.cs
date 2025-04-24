@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using OrderSolution.API.Interfaces;
 
 namespace OrderSolution.API.Entities
 {
-    public class Client
+    public class Client : IOwnedUserId
     {
         public int Id { get; set; }
         public string Name { get; set; } = String.Empty;

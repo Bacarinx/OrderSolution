@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
+using OrderSolution.API.Interfaces;
 
 namespace OrderSolution.API.Entities
 {
-    public class ServiceClientProducts
+    public class ServiceClientProducts : IOwnedUserId
     {
         public int Id { get; set; }
         public int ProductId { get; set; }

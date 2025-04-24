@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http.HttpResults;
 using OrderSolution.API.Context;
+using OrderSolution.API.Entities;
+using OrderSolution.API.Middleware;
 using OrderSolution.API.Services.LoggedUser;
 using OrderSolution.Comunication.Requests;
 using OrderSolution.Comunication.Responses;
@@ -42,8 +44,41 @@ namespace OrderSolution.API.UseCases.Category
 
             _context.Categories.Add(response);
             _context.SaveChanges();
-
             return response.Name;
+        }
+
+        public void DeleteCategory(int categoryId)
+        {
+            var loggedUser = new LoggedUserService(_httpContext);
+            var ActualLoggedUser = loggedUser.getUser(_context);
+
+            var nullMiddlaware = new NullMiddlaware();
+            var userMiddlaware = new UserMiddlaware();
+
+            var categorieToBeRemoved = _context.Categories.FirstOrDefault(c => c.Id == categoryId);
+
+            nullMiddlaware.Execute(categorieToBeRemoved, "Produto");
+            userMiddlaware.Execute(ActualLoggedUser, categorieToBeRemoved);
+
+            _context.Categories.Remove(categorieToBeRemoved);
+            _context.SaveChanges();
+        }
+
+        public void UpdateCategory(RequestUpdateCategory request)
+        {
+            var loggedUser = new LoggedUserService(_httpContext);
+            var ActualLoggedUser = loggedUser.getUser(_context);
+
+            var nullMiddlaware = new NullMiddlaware();
+            var userMiddlaware = new UserMiddlaware();
+
+            var categorieToBeUpdate = _context.Categories.FirstOrDefault(c => c.Id == request.CategoryId);
+
+            nullMiddlaware.Execute(categorieToBeUpdate, "Produto");
+            userMiddlaware.Execute(ActualLoggedUser, categorieToBeUpdate);
+
+            categorieToBeUpdate.Name = request.NewName;
+            _context.SaveChanges();
         }
     }
 }

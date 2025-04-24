@@ -19,7 +19,7 @@ namespace OrderSolution.API.Controllers
         private readonly OrderSolutionDbContext _context;
         private readonly IHttpContextAccessor _httpContext;
 
-        #pragma warning disable IDE0290
+#pragma warning disable IDE0290
         public CategoryController(OrderSolutionDbContext context, IHttpContextAccessor httpContext)
         {
             _context = context;
@@ -35,6 +35,24 @@ namespace OrderSolution.API.Controllers
             var useCase = new UseCaseCategory(_context, _httpContext);
             var response = useCase.CriarCategoria(request);
             return Created(String.Empty, response);
+        }
+
+        [HttpDelete]
+        [Authorize]
+        public IActionResult Delete(int categoryId)
+        {
+            var useCase = new UseCaseCategory(_context, _httpContext);
+            useCase.DeleteCategory(categoryId);
+            return Ok(categoryId);
+        }
+
+        [HttpPatch]
+        [Authorize]
+        public IActionResult Update(int categoryId)
+        {
+            var useCase = new UseCaseCategory(_context, _httpContext);
+            useCase.DeleteCategory(categoryId);
+            return Ok(categoryId);
         }
     }
 }

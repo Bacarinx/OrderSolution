@@ -262,358 +262,449 @@ C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution
 /home/henriquebacarin/study/dotnet/OrderSolution/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/henriquebacarin/study/dotnet/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/henriquebacarin/study/dotnet/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\appsettings.Development.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\appsettings.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.API.staticwebassets.endpoints.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.API.exe
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.API.deps.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.API.runtimeconfig.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.API.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.API.pdb
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Azure.Core.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Azure.Identity.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\BCrypt.Net-Next.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\FluentValidation.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Humanizer.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Build.Locator.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Identity.Client.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.OpenApi.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Mono.TextTemplating.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.ClientModel.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.CodeDom.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Composition.AttributedModel.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Composition.Convention.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Composition.Hosting.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Composition.Runtime.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Composition.TypedParts.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Drawing.Common.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Formats.Asn1.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Memory.Data.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Runtime.Caching.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Security.Permissions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Text.Json.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Windows.Extensions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.Comunication.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolutions.Exception.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.Comunication.pdb
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolutions.Exception.pdb
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.csproj.AssemblyReference.cache
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.AssemblyInfoInputs.cache
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.AssemblyInfo.cs
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.csproj.CoreCompileInputs.cache
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.sourcelink.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\scopedcss\bundle\OrderSolution.API.styles.css
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets.build.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets.development.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets\msbuild.OrderSolution.API.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets\msbuild.OrderSolution.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets\msbuild.build.OrderSolution.API.props
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.OrderSolution.API.props
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.OrderSolution.API.props
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSol.D61AAD10.Up2Date
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\refint\OrderSolution.API.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.pdb
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.genruntimeconfig.cache
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\C#\OrderSolution\OrderSolution.API\obj\Debug\net9.0\ref\OrderSolution.API.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\appsettings.Development.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\appsettings.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.API.staticwebassets.endpoints.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.API.exe
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.API.deps.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.API.runtimeconfig.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.API.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.API.pdb
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Azure.Core.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Azure.Identity.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\BCrypt.Net-Next.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\FluentValidation.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Humanizer.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Build.Locator.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Identity.Client.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.OpenApi.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Mono.TextTemplating.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.ClientModel.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.CodeDom.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Composition.AttributedModel.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Composition.Convention.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Composition.Hosting.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Composition.Runtime.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Composition.TypedParts.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Drawing.Common.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Formats.Asn1.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Memory.Data.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Runtime.Caching.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Security.Permissions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Text.Json.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\System.Windows.Extensions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.Comunication.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolutions.Exception.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolution.Comunication.pdb
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\bin\Debug\net9.0\OrderSolutions.Exception.pdb
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.csproj.AssemblyReference.cache
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.AssemblyInfoInputs.cache
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.AssemblyInfo.cs
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.csproj.CoreCompileInputs.cache
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\scopedcss\bundle\OrderSolution.API.styles.css
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets.build.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets.development.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets\msbuild.OrderSolution.API.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets\msbuild.OrderSolution.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets\msbuild.build.OrderSolution.API.props
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.OrderSolution.API.props
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.OrderSolution.API.props
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSol.D61AAD10.Up2Date
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\refint\OrderSolution.API.dll
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.pdb
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\OrderSolution.API.genruntimeconfig.cache
-C:\Users\henri\OneDrive\Área de Trabalho\Estudos\OrderSolution\OrderSolution.API\obj\Debug\net9.0\ref\OrderSolution.API.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Humanizer.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Mono.TextTemplating.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.CodeDom.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Composition.Convention.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Composition.Hosting.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Composition.Runtime.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Composition.TypedParts.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Formats.Asn1.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Text.Json.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/C#/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/appsettings.Development.json
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/appsettings.json
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/OrderSolution.API.staticwebassets.endpoints.json
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/OrderSolution.API.exe
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/OrderSolution.API.deps.json
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/OrderSolution.API.runtimeconfig.json
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/OrderSolution.API.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/OrderSolution.API.pdb
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Azure.Core.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Azure.Identity.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/BCrypt.Net-Next.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/FluentValidation.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/FluentValidation.AspNetCore.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/FluentValidation.DependencyInjectionExtensions.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Humanizer.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.OpenApi.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Mono.TextTemplating.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.ClientModel.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.CodeDom.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Composition.Convention.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Composition.Hosting.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Composition.Runtime.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Composition.TypedParts.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Drawing.Common.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Formats.Asn1.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Memory.Data.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Runtime.Caching.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Security.Permissions.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Text.Json.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/System.Windows.Extensions.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/OrderSolution.Comunication.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/OrderSolutions.Exception.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/OrderSolution.Comunication.pdb
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/bin/Debug/net9.0/OrderSolutions.Exception.pdb
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.csproj.AssemblyReference.cache
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.AssemblyInfoInputs.cache
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.AssemblyInfo.cs
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.csproj.CoreCompileInputs.cache
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/scopedcss/bundle/OrderSolution.API.styles.css
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/staticwebassets.build.json
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/staticwebassets.development.json
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/staticwebassets/msbuild.OrderSolution.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/staticwebassets/msbuild.OrderSolution.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/staticwebassets/msbuild.build.OrderSolution.API.props
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.OrderSolution.API.props
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.OrderSolution.API.props
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/staticwebassets.pack.json
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/OrderSol.D61AAD10.Up2Date
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/refint/OrderSolution.API.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.pdb
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.genruntimeconfig.cache
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.API/obj/Debug/net9.0/ref/OrderSolution.API.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/appsettings.Development.json
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/appsettings.json
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/OrderSolution.API.staticwebassets.endpoints.json
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/OrderSolution.API
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/OrderSolution.API.deps.json
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/OrderSolution.API.runtimeconfig.json
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/OrderSolution.API.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/OrderSolution.API.pdb
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Azure.Core.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Azure.Identity.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/BCrypt.Net-Next.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/FluentValidation.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/FluentValidation.AspNetCore.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/FluentValidation.DependencyInjectionExtensions.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Humanizer.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Mono.TextTemplating.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/System.ClientModel.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/System.CodeDom.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/System.Composition.Convention.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/System.Composition.Hosting.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/System.Composition.Runtime.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/System.Drawing.Common.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/System.Memory.Data.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/System.Runtime.Caching.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/System.Security.Permissions.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/System.Windows.Extensions.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/OrderSolution.Comunication.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/OrderSolutions.Exception.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/OrderSolution.Comunication.pdb
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/OrderSolutions.Exception.pdb
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.csproj.AssemblyReference.cache
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.GeneratedMSBuildEditorConfig.editorconfig
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.AssemblyInfoInputs.cache
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.AssemblyInfo.cs
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.csproj.CoreCompileInputs.cache
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.MvcApplicationPartsAssemblyInfo.cs
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.MvcApplicationPartsAssemblyInfo.cache
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.sourcelink.json
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/scopedcss/bundle/OrderSolution.API.styles.css
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/staticwebassets.build.json
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/staticwebassets.development.json
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/staticwebassets/msbuild.OrderSolution.API.Microsoft.AspNetCore.StaticWebAssets.props
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/staticwebassets/msbuild.OrderSolution.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/staticwebassets/msbuild.build.OrderSolution.API.props
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.OrderSolution.API.props
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.OrderSolution.API.props
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/staticwebassets.pack.json
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/OrderSol.D61AAD10.Up2Date
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/refint/OrderSolution.API.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.pdb
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.genruntimeconfig.cache
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/ref/OrderSolution.API.dll

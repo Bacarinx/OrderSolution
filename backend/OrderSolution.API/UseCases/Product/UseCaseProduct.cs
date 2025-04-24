@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using FluentValidation.Results;
 using OrderSolution.API.Context;
 using OrderSolution.API.Entities;
+using OrderSolution.API.Middleware;
 using OrderSolution.API.Services.LoggedUser;
 using OrderSolution.API.Validations;
 using OrderSolution.Comunication.Requests;
@@ -24,7 +25,6 @@ namespace OrderSolution.API.UseCases.Product
             _context = context;
             _httpContext = httpContext;
         }
-
 
         public ResponseProduct CriarProduto(RequestNewProduct request)
         {
@@ -95,14 +95,13 @@ namespace OrderSolution.API.UseCases.Product
             var loggedUser = new LoggedUserService(_httpContext);
             var ActualLoggedUser = loggedUser.getUser(_context);
 
+            var nullMiddlaware = new NullMiddlaware();
+            var userMiddlaware = new UserMiddlaware();
+
             var productToBeremoved = _context.Products.FirstOrDefault(prod => prod.Id == ProductId);
 
-            if (productToBeremoved == null)
-                throw new ExceptionNoContentMessage(["Produto não existe!"]);
-
-            var userProductId = productToBeremoved.UserId;
-            if (userProductId != ActualLoggedUser.Id)
-                throw new ExceptionUserRegister(["Você não possui acesso para remover esse produto!"]);
+            nullMiddlaware.Execute(productToBeremoved, "Produto");
+            userMiddlaware.Execute(ActualLoggedUser, productToBeremoved);
 
             _context.Products.Remove(productToBeremoved);
             _context.SaveChanges();

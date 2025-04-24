@@ -5905,42 +5905,36 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\henri\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/henriquebacarin/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\Estudos\\OrderSolution\\OrderSolution.API\\OrderSolution.API.csproj",
+      "projectUniqueName": "/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/OrderSolution.API.csproj",
       "projectName": "OrderSolution.API",
-      "projectPath": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\Estudos\\OrderSolution\\OrderSolution.API\\OrderSolution.API.csproj",
-      "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\Estudos\\OrderSolution\\OrderSolution.API\\obj\\",
+      "projectPath": "/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/OrderSolution.API.csproj",
+      "packagesPath": "/home/henriquebacarin/.nuget/packages/",
+      "outputPath": "/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/henriquebacarin/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\Estudos\\OrderSolution\\OrderSolution.Comunication\\OrderSolution.Comunication.csproj": {
-              "projectPath": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\Estudos\\OrderSolution\\OrderSolution.Comunication\\OrderSolution.Comunication.csproj"
+            "/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/OrderSolution.Comunication.csproj": {
+              "projectPath": "/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/OrderSolution.Comunication.csproj"
             },
-            "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\Estudos\\OrderSolution\\OrderSolutions.Exception\\OrderSolutions.Exception.csproj": {
-              "projectPath": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\Estudos\\OrderSolution\\OrderSolutions.Exception\\OrderSolutions.Exception.csproj"
+            "/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/OrderSolutions.Exception.csproj": {
+              "projectPath": "/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/OrderSolutions.Exception.csproj"
             }
           }
         }
@@ -5955,7 +5949,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -6027,7 +6021,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
