@@ -30,13 +30,10 @@ namespace OrderSolution.API.UseCases.Product
         {
             var validator = new ValidationProductRegister();
             var responseValidation = validator.Validate(request);
-
             var categoryExists = _context.Categories.FirstOrDefault(cat => cat.Id == request.CategoryId);
 
-            if (categoryExists == null)
-            {
-                responseValidation.Errors.Add(new ValidationFailure("CategoryId", "Essa categoria não existe, adicione o produto em uma categoria existente"));
-            }
+            var nullMiddleware = new NullMiddlaware();
+            nullMiddleware.Execute(categoryExists, "Token");
 
             if (request.Price <= 0)
                 responseValidation.Errors.Add(new ValidationFailure("Price", "O preço precisa ser um valor positivo!"));

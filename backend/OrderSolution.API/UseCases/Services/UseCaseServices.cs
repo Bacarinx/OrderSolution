@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using OrderSolution.API.Context;
 using OrderSolution.API.Entities;
+using OrderSolution.API.Interfaces;
+using OrderSolution.API.Middleware;
 using OrderSolution.API.Services.LoggedUser;
 using OrderSolution.Comunication.Responses;
 using OrderSolutions.Exception;
@@ -26,8 +28,8 @@ namespace OrderSolution.API.UseCases.Services
             var userLogged = new LoggedUserService(_httpContext);
             var user = userLogged.getUser(_context);
 
-            if (user == null || user.Id == 0)
-                throw new ExceptionUserUnathorized();
+            var userMiddlaware = new UserMiddlaware();
+            userMiddlaware.Execute<IOwnedUserId>(user, null);
 
             var service = new Entities.Service
             {
@@ -57,8 +59,8 @@ namespace OrderSolution.API.UseCases.Services
             var service = _context.Services.FirstOrDefault(s => s.Id == serviceid)
                 ?? throw new ExceptionServiceNotFound();
 
-            if (user == null || user.Id != service.UserId || user.Id == 0)
-                throw new ExceptionUserUnathorized();
+            var userMiddlaware = new UserMiddlaware();
+            userMiddlaware.Execute<IOwnedUserId>(user, null);
 
             if (service.EndService != null)
                 throw new ExceptionServiceAlreadyEnds();

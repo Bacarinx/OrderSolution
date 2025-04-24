@@ -48,11 +48,20 @@ namespace OrderSolution.API.Controllers
 
         [HttpPatch]
         [Authorize]
-        public IActionResult Update(int categoryId)
+        public IActionResult Update(RequestUpdateCategory request)
         {
             var useCase = new UseCaseCategory(_context, _httpContext);
-            useCase.DeleteCategory(categoryId);
-            return Ok(categoryId);
+            useCase.UpdateCategory(request);
+            return Ok(request);
+        }
+
+        [HttpGet]
+        [Authorize]
+        public IActionResult GetCategory()
+        {
+            var useCase = new UseCaseCategory(_context, _httpContext);
+            var response = useCase.GetCategory();
+            return Ok(response);
         }
     }
 }

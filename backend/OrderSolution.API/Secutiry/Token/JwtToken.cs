@@ -18,7 +18,7 @@ namespace OrderSolution.API.Secutiry.Token
 
             var symetric = new SecurityTokenDescriptor()
             {
-                Expires = DateTime.UtcNow.AddMinutes(10),
+                Expires = DateTime.UtcNow.AddDays(2),
                 SigningCredentials = new SigningCredentials(Symmetric.GetCredentials(), SecurityAlgorithms.HmacSha256Signature),
                 Subject = new ClaimsIdentity(claims)
             };

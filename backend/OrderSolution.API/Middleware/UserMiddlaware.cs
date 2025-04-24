@@ -17,6 +17,12 @@ namespace OrderSolution.API.Middleware
                 if (user == null || user.Id != entity.UserId || user.Id == 0)
                     throw new ExceptionUserRegister(["Você não possui acesso para isso!"]);
             }
+
+            if (entity == null)
+            {
+                if (user == null || user.Id == 0)
+                    throw new ExceptionUserRegister(["Faça login para ter acesso à esse serviço!"]);
+            }
         }
     }
 }

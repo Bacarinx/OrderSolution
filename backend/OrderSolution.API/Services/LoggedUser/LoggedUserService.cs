@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using OrderSolution.API.Context;
 using OrderSolution.API.Entities;
+using OrderSolution.API.Middleware;
 using OrderSolutions.Exception;
 
 namespace OrderSolution.API.Services.LoggedUser
@@ -21,8 +22,8 @@ namespace OrderSolution.API.Services.LoggedUser
         public User getUser(OrderSolutionDbContext dbContext)
         {
             var jwtToken = _context.HttpContext?.Request.Headers.Authorization.ToString();
-
-            if (jwtToken is null) throw new ExceptionUserRegister(["Erro Inesperado"]);
+            var nullMiddleware = new NullMiddlaware();
+            nullMiddleware.Execute(jwtToken, "Token");
 
             jwtToken = jwtToken[6..].Trim();
             var tokenHandler = new JwtSecurityTokenHandler();

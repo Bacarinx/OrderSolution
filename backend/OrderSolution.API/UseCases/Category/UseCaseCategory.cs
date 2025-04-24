@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http.HttpResults;
 using OrderSolution.API.Context;
 using OrderSolution.API.Entities;
+using OrderSolution.API.Interfaces;
 using OrderSolution.API.Middleware;
 using OrderSolution.API.Services.LoggedUser;
 using OrderSolution.Comunication.Requests;
@@ -79,6 +80,31 @@ namespace OrderSolution.API.UseCases.Category
 
             categorieToBeUpdate.Name = request.NewName;
             _context.SaveChanges();
+        }
+
+        public ResponseGetCategories GetCategory()
+        {
+            var loggedUser = new LoggedUserService(_httpContext);
+            var ActualLoggedUser = loggedUser.getUser(_context);
+
+            var userMiddlaware = new UserMiddlaware();
+            userMiddlaware.Execute<IOwnedUserId>(ActualLoggedUser, null);
+
+            var query = _context.Categories.Where(c => c.UserId == ActualLoggedUser.Id);
+
+            List<ModelCategory> categories = [];
+            foreach (var q in query)
+            {
+                categories.Add(new ModelCategory{
+                    CategoryId = q.Id,
+                    CategoryName = q.Name
+                });
+            }
+
+            return new ResponseGetCategories
+            {
+                Categories = categories
+            };
         }
     }
 }
