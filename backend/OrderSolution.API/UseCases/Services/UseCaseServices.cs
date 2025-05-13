@@ -26,10 +26,10 @@ namespace OrderSolution.API.UseCases.Services
         public ResponseService StartService()
         {
             var userLogged = new LoggedUserService(_httpContext);
-            var user = userLogged.getUser(_context);
+            var user = userLogged.GetUser(_context);
 
             var userMiddlaware = new UserMiddlaware();
-            userMiddlaware.Execute<IOwnedUserId>(user, null);
+            userMiddlaware.UserMid<IOwnedUserId>(user, null);
 
             var service = new Entities.Service
             {
@@ -54,13 +54,13 @@ namespace OrderSolution.API.UseCases.Services
         public ResponseService EndService(int serviceid)
         {
             var userLogged = new LoggedUserService(_httpContext);
-            var user = userLogged.getUser(_context);
+            var user = userLogged.GetUser(_context);
 
             var service = _context.Services.FirstOrDefault(s => s.Id == serviceid)
                 ?? throw new ExceptionServiceNotFound();
 
             var userMiddlaware = new UserMiddlaware();
-            userMiddlaware.Execute<IOwnedUserId>(user, null);
+            userMiddlaware.UserMid<IOwnedUserId>(user, null);
 
             if (service.EndService != null)
                 throw new ExceptionServiceAlreadyEnds();

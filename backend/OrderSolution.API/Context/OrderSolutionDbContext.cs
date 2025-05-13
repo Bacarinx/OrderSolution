@@ -16,6 +16,7 @@ namespace OrderSolution.API.Context
         public required DbSet<Service> Services { get; set; }
         public required DbSet<ServiceClient> ServiceClients { get; set; }
         public required DbSet<ServiceClientProducts> ServiceClientProducts { get; set; }
+        public required DbSet<Tab> Tab { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

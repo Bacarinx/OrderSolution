@@ -15,12 +15,14 @@ namespace OrderSolution.API.UseCases.ServiceClient
     {
         private readonly OrderSolutionDbContext _context;
         private readonly IHttpContextAccessor _httpContext;
+        private readonly UserMiddlaware Middlaware;
 
 #pragma warning disable IDE0290
         public UseCaseServiceClient(OrderSolutionDbContext context, IHttpContextAccessor httpContext)
         {
             _context = context;
             _httpContext = httpContext;
+            Middlaware = new UserMiddlaware();
         }
 
         public ResponseClientServiceAdded AddClientInService(int serviceid, int clientid)
@@ -28,12 +30,10 @@ namespace OrderSolution.API.UseCases.ServiceClient
             var client = _context.Clients.FirstOrDefault(c => c.Id == clientid);
             var service = _context.Services.FirstOrDefault(s => s.Id == clientid);
 
-            var nullMiddleware = new NullMiddlaware();
+            Middlaware.NullMid(service, "Serviço");
+            Middlaware.NullMid(client, "Cliente");
 
-            nullMiddleware.Execute(service, "Serviço");
-            nullMiddleware.Execute(client, "Cliente");
-
-            if (service.EndService != null)
+            if (service!.EndService != null)
                 throw new ExceptionClientServices(["Esse serviço já fechou! Inicie um outro serviço para incluir usuário"]);
 
             var clientAlreadyInService = _context.ServiceClients.FirstOrDefault(c => c.ClientId == clientid && c.ServiceId == serviceid);
@@ -41,11 +41,11 @@ namespace OrderSolution.API.UseCases.ServiceClient
                 throw new ExceptionClientServices(["Usuário já está cadastrado no serviço!"]);
 
             var LoggedUser = new LoggedUserService(_httpContext);
-            var user = LoggedUser.getUser(_context);
+            var user = LoggedUser.GetUser(_context);
 
             var serviceClient = new Entities.ServiceClient
             {
-                ClientId = client.Id,
+                ClientId = client!.Id,
                 ServiceId = service.Id
             };
 

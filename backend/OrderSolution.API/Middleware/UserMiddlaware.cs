@@ -8,9 +8,21 @@ using OrderSolutions.Exception;
 
 namespace OrderSolution.API.Middleware
 {
+    
     public class UserMiddlaware
     {
-        public void Execute<T>(User user, T? entity) where T : class, IOwnedUserId
+        public UserMiddlaware() {}
+
+        public void NullMid<T>(T obj, string objName)
+        {
+            if (obj == null)
+            {
+                var message = objName + " não existe";
+                throw new ExceptionNullObject(message);
+            }
+        }
+
+        public void UserMid<T>(User user, T? entity) where T : class, IOwnedUserId
         {
             if (entity != null)
             {

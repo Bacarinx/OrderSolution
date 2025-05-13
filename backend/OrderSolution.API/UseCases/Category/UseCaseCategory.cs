@@ -18,12 +18,14 @@ namespace OrderSolution.API.UseCases.Category
     {
         private readonly OrderSolutionDbContext _context;
         private readonly IHttpContextAccessor _httpContext;
+        private readonly UserMiddlaware Middlaware;
 
 #pragma warning disable IDE0290
         public UseCaseCategory(OrderSolutionDbContext context, IHttpContextAccessor httpContext)
         {
             _context = context;
             _httpContext = httpContext;
+            Middlaware = new UserMiddlaware();
         }
 
         public string CriarCategoria(RequestCategory request)
@@ -35,7 +37,7 @@ namespace OrderSolution.API.UseCases.Category
             }
 
             var loggedUser = new LoggedUserService(_httpContext);
-            var user = loggedUser.getUser(_context);
+            var user = loggedUser.GetUser(_context);
 
             var response = new Entities.Category
             {
@@ -51,44 +53,37 @@ namespace OrderSolution.API.UseCases.Category
         public void DeleteCategory(int categoryId)
         {
             var loggedUser = new LoggedUserService(_httpContext);
-            var ActualLoggedUser = loggedUser.getUser(_context);
-
-            var nullMiddlaware = new NullMiddlaware();
-            var userMiddlaware = new UserMiddlaware();
+            var ActualLoggedUser = loggedUser.GetUser(_context);
 
             var categorieToBeRemoved = _context.Categories.FirstOrDefault(c => c.Id == categoryId);
 
-            nullMiddlaware.Execute(categorieToBeRemoved, "Produto");
-            userMiddlaware.Execute(ActualLoggedUser, categorieToBeRemoved);
+            Middlaware.NullMid(categorieToBeRemoved, "Produto");
+            Middlaware.UserMid(ActualLoggedUser, categorieToBeRemoved);
 
-            _context.Categories.Remove(categorieToBeRemoved);
+            _context.Categories.Remove(categorieToBeRemoved!);
             _context.SaveChanges();
         }
 
         public void UpdateCategory(RequestUpdateCategory request)
         {
             var loggedUser = new LoggedUserService(_httpContext);
-            var ActualLoggedUser = loggedUser.getUser(_context);
-
-            var nullMiddlaware = new NullMiddlaware();
-            var userMiddlaware = new UserMiddlaware();
+            var ActualLoggedUser = loggedUser.GetUser(_context);
 
             var categorieToBeUpdate = _context.Categories.FirstOrDefault(c => c.Id == request.CategoryId);
 
-            nullMiddlaware.Execute(categorieToBeUpdate, "Produto");
-            userMiddlaware.Execute(ActualLoggedUser, categorieToBeUpdate);
+            Middlaware.NullMid(categorieToBeUpdate, "Produto");
+            Middlaware.UserMid(ActualLoggedUser, categorieToBeUpdate);
 
-            categorieToBeUpdate.Name = request.NewName;
+            categorieToBeUpdate!.Name = request.NewName;
             _context.SaveChanges();
         }
 
         public ResponseGetCategories GetCategory()
         {
             var loggedUser = new LoggedUserService(_httpContext);
-            var ActualLoggedUser = loggedUser.getUser(_context);
+            var ActualLoggedUser = loggedUser.GetUser(_context);
 
-            var userMiddlaware = new UserMiddlaware();
-            userMiddlaware.Execute<IOwnedUserId>(ActualLoggedUser, null);
+            Middlaware.UserMid<IOwnedUserId>(ActualLoggedUser, null);
 
             var query = _context.Categories.Where(c => c.UserId == ActualLoggedUser.Id);
 

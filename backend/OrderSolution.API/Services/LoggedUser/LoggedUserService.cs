@@ -19,13 +19,13 @@ namespace OrderSolution.API.Services.LoggedUser
             _context = context;
         }
 
-        public User getUser(OrderSolutionDbContext dbContext)
+        public User GetUser(OrderSolutionDbContext dbContext)
         {
             var jwtToken = _context.HttpContext?.Request.Headers.Authorization.ToString();
-            var nullMiddleware = new NullMiddlaware();
-            nullMiddleware.Execute(jwtToken, "Token");
+            var middlaware = new UserMiddlaware();
+            middlaware.NullMid(jwtToken, "Token");
 
-            jwtToken = jwtToken[6..].Trim();
+            jwtToken = jwtToken![6..].Trim();
             var tokenHandler = new JwtSecurityTokenHandler();
             var token = tokenHandler.ReadJwtToken(jwtToken);
             var stringId = token.Claims.First(claim => claim.Type == "Id").Value;

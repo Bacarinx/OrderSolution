@@ -164,7 +164,7 @@ namespace OrderSolution.API.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<bool>("IsActive")
+                    b.Property<bool>("IsPaid")
                         .HasColumnType("bit");
 
                     b.Property<int>("ProductId")
@@ -190,6 +190,27 @@ namespace OrderSolution.API.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("ServiceClientProducts");
+                });
+
+            modelBuilder.Entity("OrderSolution.API.Entities.Tab", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Tab");
                 });
 
             modelBuilder.Entity("OrderSolution.API.Entities.User", b =>
@@ -338,6 +359,17 @@ namespace OrderSolution.API.Migrations
                     b.Navigation("Service");
 
                     b.Navigation("ServiceClient");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("OrderSolution.API.Entities.Tab", b =>
+                {
+                    b.HasOne("OrderSolution.API.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("User");
                 });

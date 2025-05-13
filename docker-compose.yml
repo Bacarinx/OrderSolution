@@ -1,0 +1,43 @@
+version: "3.9"
+
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    restart: always
+    environment:
+      SA_PASSWORD: "Bacarin54"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Express"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: api
+    restart: on-failure
+    depends_on:
+      - db
+    ports:
+      - "5194:5194"
+    entrypoint: ["/wait-for-it.sh", "db:1433", "--", "dotnet", "OrderSolution.API.dll"]
+    environment:
+      ConnectionStrings__Default: "Server=db,1433;Database=OrderSolutionDB;User Id=sa;Password=Bacarin54;TrustServerCertificate=True;"
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: react_app
+    restart: on-failure
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
+
+volumes:
+  sqlserver_data:

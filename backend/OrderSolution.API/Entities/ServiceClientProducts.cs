@@ -13,7 +13,7 @@ namespace OrderSolution.API.Entities
         public int ProductId { get; set; }
         public int ServiceClientId { get; set; }
         public int ServiceId { get; set; }
-        public bool IsActive { get; set; }
+        public bool IsPaid { get; set; } //Verify if item was pay.
         public int UserId { get; set; }
 
         [ForeignKey("ProductId")]

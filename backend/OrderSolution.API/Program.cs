@@ -10,6 +10,8 @@ using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.UseUrls("http://*:5194");
+
 builder.Services.AddControllers();
 
 builder.Services.AddOpenApi();
@@ -43,8 +45,7 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-var connectionString = Environment.GetEnvironmentVariable("CONNECTION_STRING")
-                       ?? builder.Configuration.GetConnectionString("DefaultConnectionString");
+var connectionString = builder.Configuration.GetConnectionString("Default");
 
 builder.Services.AddDbContext<OrderSolutionDbContext>(c =>
 {
@@ -79,4 +80,11 @@ app.UseSwaggerUI();
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<OrderSolutionDbContext>();
+    db.Database.Migrate();
+}
+
 app.Run();
