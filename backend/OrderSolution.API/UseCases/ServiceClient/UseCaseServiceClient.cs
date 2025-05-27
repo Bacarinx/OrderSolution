@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using OrderSolution.API.Context;
 using OrderSolution.API.Entities;
 using OrderSolution.API.Middleware;
@@ -57,6 +58,19 @@ namespace OrderSolution.API.UseCases.ServiceClient
                 UserId = serviceClient.ClientId,
                 ServiceId = serviceClient.ServiceId
             };
+        }
+
+        public void RemoveClientFromService(int serviceClientId)
+        {
+            var serviceClient = _context.ServiceClients.FirstOrDefault(s => s.Id == serviceClientId);
+            Middlaware.NullMid(serviceClient, "cliente");
+
+            var LoggedUser = new LoggedUserService(_httpContext);
+            var user = LoggedUser.GetUser(_context);
+            Middlaware.UserMid(user, serviceClient);
+
+            _context.ServiceClients.Remove(serviceClient!);
+            _context.SaveChanges();
         }
     }
 }

@@ -35,5 +35,14 @@ namespace OrderSolution.API.Controllers
 
             return Created(String.Empty, new { request.ServiceId, request.ClientId });
         }
+
+        [HttpDelete]
+        [Authorize]
+        public IActionResult Remove(int serviceClientId)
+        {
+            var useCase = new UseCaseServiceClient(_context, _httpcontext);
+            useCase.RemoveClientFromService(serviceClientId);
+            return Ok("Cliente Retirado do servico com sucesso!");
+        }
     }
 }

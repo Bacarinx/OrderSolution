@@ -26,7 +26,8 @@ services:
       - "5194:5194"
     entrypoint: ["/wait-for-it.sh", "db:1433", "--", "dotnet", "OrderSolution.API.dll"]
     environment:
-      ConnectionStrings__Default: "Server=db,1433;Database=OrderSolutionDB;User Id=sa;Password=Bacarin54;TrustServerCertificate=True;"
+      ConnectionStrings__Default: Server=db;Database=OrderSolutionDB;User Id=sa;Password=Bacarin54;TrustServerCertificate=True;
+
 
   frontend:
     build:
