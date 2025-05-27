@@ -15,8 +15,8 @@ namespace OrderSolution.API.Context
         public required DbSet<Client> Clients { get; set; }
         public required DbSet<Service> Services { get; set; }
         public required DbSet<ServiceClient> ServiceClients { get; set; }
-        public required DbSet<ServiceClientProducts> ServiceClientProducts { get; set; }
         public required DbSet<Tab> Tab { get; set; }
+        public required DbSet<TabProducts> TabProducts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -24,12 +24,10 @@ namespace OrderSolution.API.Context
                 .HasOne(p => p.User)
                 .WithMany()
                 .HasForeignKey(p => p.UserId)
-                .OnDelete(DeleteBehavior.NoAction); // Impede a deleção em cascata
-
+                .OnDelete(DeleteBehavior.NoAction);
             modelBuilder.Entity<Product>()
                 .Property(p => p.Price)
                 .HasPrecision(18, 2);
-
             modelBuilder.Entity<ServiceClient>()
                 .HasOne(sc => sc.Service)
                 .WithMany()
@@ -40,21 +38,20 @@ namespace OrderSolution.API.Context
                 .WithMany()
                 .HasForeignKey(sc => sc.UserId)
                 .OnDelete(DeleteBehavior.NoAction);
-
-            modelBuilder.Entity<ServiceClientProducts>()
-                .HasOne(sc => sc.ServiceClient)
+            modelBuilder.Entity<Tab>()
+                .HasOne(s => s.Client)
                 .WithMany()
-                .HasForeignKey(sc => sc.ServiceClientId)
+                .HasForeignKey(s => s.ClientId)
                 .OnDelete(DeleteBehavior.NoAction);
-            modelBuilder.Entity<ServiceClientProducts>()
-                .HasOne(sc => sc.Service)
+            modelBuilder.Entity<Tab>()
+                .HasOne(s => s.User)
                 .WithMany()
-                .HasForeignKey(sc => sc.ServiceId)
+                .HasForeignKey(s => s.UserId)
                 .OnDelete(DeleteBehavior.NoAction);
-            modelBuilder.Entity<ServiceClientProducts>()
-                .HasOne(sc => sc.User)
+            modelBuilder.Entity<TabProducts>()
+                .HasOne(s => s.User)
                 .WithMany()
-                .HasForeignKey(sc => sc.UserId)
+                .HasForeignKey(s => s.UserId)
                 .OnDelete(DeleteBehavior.NoAction);
         }
     }

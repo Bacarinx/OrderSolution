@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OrderSolution.API.Context;
 
@@ -11,9 +12,11 @@ using OrderSolution.API.Context;
 namespace OrderSolution.API.Migrations
 {
     [DbContext(typeof(OrderSolutionDbContext))]
-    partial class OrderSolutionDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250527184506_reorganzandoEntidades")]
+    partial class reorganzandoEntidades
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -179,40 +182,6 @@ namespace OrderSolution.API.Migrations
                     b.ToTable("Tab");
                 });
 
-            modelBuilder.Entity("OrderSolution.API.Entities.TabProducts", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("InsertionDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsPaid")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("TabId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.HasIndex("TabId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("TabProducts");
-                });
-
             modelBuilder.Entity("OrderSolution.API.Entities.User", b =>
                 {
                     b.Property<int>("Id")
@@ -339,37 +308,10 @@ namespace OrderSolution.API.Migrations
                     b.HasOne("OrderSolution.API.Entities.User", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Client");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("OrderSolution.API.Entities.TabProducts", b =>
-                {
-                    b.HasOne("OrderSolution.API.Entities.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("OrderSolution.API.Entities.Tab", "Tab")
-                        .WithMany()
-                        .HasForeignKey("TabId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("OrderSolution.API.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.Navigation("Product");
-
-                    b.Navigation("Tab");
 
                     b.Navigation("User");
                 });

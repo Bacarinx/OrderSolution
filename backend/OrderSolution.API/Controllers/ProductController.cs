@@ -57,5 +57,15 @@ namespace OrderSolution.API.Controllers
             useCase.RemoverProduto(id);
             return Ok("Produto Removido com sucesso!");
         }
+
+        [HttpPatch]
+        [Authorize]
+        [Route("id")]
+        public IActionResult AtualizarProduto(int id, RequestProductUpdate request)
+        {
+            var useCase = new UseCaseProduct(_context, _httpContext);
+            useCase.AtualizarProduto(id, request);
+            return Ok("Produto Atualizado com Sucesso!");
+        }
     }
 }

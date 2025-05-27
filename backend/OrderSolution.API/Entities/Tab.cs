@@ -11,9 +11,13 @@ namespace OrderSolution.API.Entities
     {
         public int Id { get; set; }
         public int UserId { get; set; }
-        public bool IsActive { get; set; }
+        public int ClientId { get; set; }
 
         [ForeignKey("UserId")]
         public User User { get; set; } = null!;
+
+        [ForeignKey("ClientId")]
+        public Client Client { get; set; } = null!;
+
     }
 }

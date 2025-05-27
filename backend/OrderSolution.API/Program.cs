@@ -40,7 +40,7 @@ builder.Services.AddSwaggerGen(c =>
     {
         {
             securityScheme,
-            new string[] {}
+            Array.Empty<string>()
         }
     });
 });
