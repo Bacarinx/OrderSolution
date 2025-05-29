@@ -12,7 +12,6 @@ using OrderSolution.Comunication.Responses;
 namespace OrderSolution.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
     [Authorize]
     public class ServiceController : ControllerBase
     {
@@ -25,6 +24,7 @@ namespace OrderSolution.API.Controllers
         }
 
         [HttpPost]
+        [Route("[controller]")]
         [ProducesResponseType(typeof(ResponseService), StatusCodes.Status201Created)]
         [ProducesResponseType(typeof(ExceptionRegisterUserResponse), StatusCodes.Status401Unauthorized)]
         public IActionResult CreateService()
@@ -35,6 +35,7 @@ namespace OrderSolution.API.Controllers
         }
 
         [HttpPatch]
+        [Route("[controller]/{ServiceId}")]
         [ProducesResponseType(typeof(ResponseService), StatusCodes.Status201Created)]
         [ProducesResponseType(typeof(ExceptionRegisterUserResponse), StatusCodes.Status401Unauthorized)]
         public IActionResult EndService(int ServiceId)

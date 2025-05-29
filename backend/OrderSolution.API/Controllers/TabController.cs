@@ -15,12 +15,11 @@ using OrderSolution.Comunication.Responses;
 namespace OrderSolution.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
     public class TabController : ControllerBase
     {
         private readonly OrderSolutionDbContext _context;
-        private readonly HttpContextAccessor _httpContext;
-        public TabController(OrderSolutionDbContext context, HttpContextAccessor httpcontext)
+        private readonly IHttpContextAccessor _httpContext;
+        public TabController(OrderSolutionDbContext context, IHttpContextAccessor httpcontext)
         {
             _context = context;
             _httpContext = httpcontext;
@@ -28,17 +27,17 @@ namespace OrderSolution.API.Controllers
 
         [HttpPost]
         [Authorize]
-        [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(ExceptionRegisterUserResponse), StatusCodes.Status400BadRequest)]
-        public IActionResult Create(string code)
+        [Route("[controller]")]
+        public IActionResult Create(RequestNewTab code)
         {
             var useCase = new UseCaseTab(_context, _httpContext);
-            useCase.CreateTab(code);
-            return Create(code);
+            var codes = useCase.CreateTab(code);
+            return Ok(codes);
         }
 
         [HttpDelete]
         [Authorize]
+        [Route("[controller]/{id}")]
         public IActionResult Remove(int id)
         {
             var useCase = new UseCaseTab(_context, _httpContext);
@@ -50,10 +49,11 @@ namespace OrderSolution.API.Controllers
         [Authorize]
         [ProducesResponseType(typeof(Client), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ExceptionRegisterUserResponse), StatusCodes.Status400BadRequest)]
-        public IActionResult Update(RequestTabChangeClient request)
+        [Route("[controller]/{id}")]
+        public IActionResult Update(int id, RequestTabChangeClient request)
         {
             var useCase = new UseCaseTab(_context, _httpContext);
-            useCase.TrocarPessoaComanda(request);
+            useCase.TrocarPessoaComanda(id, request);
             return Ok(_context.Clients.FirstOrDefault(c => c.Id == request.clientId));
         }
     }
