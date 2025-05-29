@@ -28,7 +28,6 @@ services:
     environment:
       ConnectionStrings__Default: Server=db;Database=OrderSolutionDB;User Id=sa;Password=Bacarin54;TrustServerCertificate=True;
 
-
   frontend:
     build:
       context: ./frontend

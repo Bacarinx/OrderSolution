@@ -13,7 +13,6 @@ using OrderSolution.Comunication.Responses;
 namespace OrderSolution.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
     public class ServiceClientsController : ControllerBase
     {
         private readonly OrderSolutionDbContext _context;
@@ -28,6 +27,7 @@ namespace OrderSolution.API.Controllers
         [ProducesResponseType(typeof(ResponseClientService), StatusCodes.Status201Created)]
         [ProducesResponseType(typeof(ExceptionRegisterUserResponse), StatusCodes.Status401Unauthorized)]
         [Authorize]
+        [Route("[controller]")]
         public IActionResult Create(RequestClientService request)
         {
             var useCase = new UseCaseServiceClient(_context, _httpcontext);
@@ -38,6 +38,7 @@ namespace OrderSolution.API.Controllers
 
         [HttpDelete]
         [Authorize]
+        [Route("[controller]/{serviceClientId}")]
         public IActionResult Remove(int serviceClientId)
         {
             var useCase = new UseCaseServiceClient(_context, _httpcontext);

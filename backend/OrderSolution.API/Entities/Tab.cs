@@ -10,8 +10,9 @@ namespace OrderSolution.API.Entities
     public class Tab : IOwnedUserId
     {
         public int Id { get; set; }
+        public string Code { get; set; } = String.Empty;
         public int UserId { get; set; }
-        public int ClientId { get; set; }
+        public int? ClientId { get; set; }
 
         [ForeignKey("UserId")]
         public User User { get; set; } = null!;

@@ -56,8 +56,18 @@ namespace OrderSolution.API.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Gender")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("UserId")
@@ -164,8 +174,12 @@ namespace OrderSolution.API.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ClientId")
+                    b.Property<int?>("ClientId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
@@ -187,11 +201,20 @@ namespace OrderSolution.API.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("ClientId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("InsertionDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("IsPaid")
                         .HasColumnType("bit");
+
+                    b.Property<DateTime?>("PaymentDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
@@ -203,6 +226,8 @@ namespace OrderSolution.API.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ClientId");
 
                     b.HasIndex("ProductId");
 
@@ -333,8 +358,7 @@ namespace OrderSolution.API.Migrations
                     b.HasOne("OrderSolution.API.Entities.Client", "Client")
                         .WithMany()
                         .HasForeignKey("ClientId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.HasOne("OrderSolution.API.Entities.User", "User")
                         .WithMany()
@@ -349,6 +373,12 @@ namespace OrderSolution.API.Migrations
 
             modelBuilder.Entity("OrderSolution.API.Entities.TabProducts", b =>
                 {
+                    b.HasOne("OrderSolution.API.Entities.Client", "Client")
+                        .WithMany()
+                        .HasForeignKey("ClientId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
                     b.HasOne("OrderSolution.API.Entities.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId")
@@ -366,6 +396,8 @@ namespace OrderSolution.API.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
+
+                    b.Navigation("Client");
 
                     b.Navigation("Product");
 
