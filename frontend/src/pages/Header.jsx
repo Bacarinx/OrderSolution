@@ -1,7 +1,10 @@
+import { useState } from "react";
 import { PiBellDuotone } from "react-icons/pi";
 import { Outlet, Link } from "react-router-dom";
 
 function Header() {
+  var [userLogged, setUserLogged] = useState(false);
+
   return (
     <>
       <div>
@@ -34,10 +37,23 @@ function Header() {
             >
               Tabs
             </Link>
-            <div className="hover:bg-gray-200 transition hover:duration-500 rounded-full w-8 h-8 flex items-center justify-center cursor-pointer">
-              <PiBellDuotone className="size-6" />
-            </div>
-            <div className="size-12 bg-gray-500 rounded-full cursor-pointer"></div>
+            {userLogged === true ? (
+              <>
+                <div className="hover:bg-gray-200 transition hover:duration-500 rounded-full w-8 h-8 flex items-center justify-center cursor-pointer">
+                  <PiBellDuotone className="size-6" />
+                </div>
+                <div className="size-12 bg-gray-500 rounded-full cursor-pointer"></div>
+              </>
+            ) : (
+              <Link
+                to="/login"
+                className="font-bold text-lg hover:bg-blue-800 cursor-pointer 
+                            hover:transition hover:duration-300 bg-blue-700 
+                            rounded-md py-2 px-4 text-white"
+              >
+                Login
+              </Link>
+            )}
           </div>
         </header>
         <div className="flex justify-center items-center m-6">
