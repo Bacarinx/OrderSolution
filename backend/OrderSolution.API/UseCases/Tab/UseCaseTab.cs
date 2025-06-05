@@ -42,6 +42,7 @@ namespace OrderSolution.API.UseCases.Tab
             {
                 UserId = User!.Id,
                 Code = request.Code,
+                IsOpen = false,
                 ClientId = null
             };
 
