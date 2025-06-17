@@ -33,18 +33,6 @@ C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolutions.E
 C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolutions.Exception/obj/Debug/net9.0/refint/OrderSolutions.Exception.dll
 C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.pdb
 C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolutions.Exception/obj/Debug/net9.0/ref/OrderSolutions.Exception.dll
-/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.deps.json
-/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.dll
-/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.pdb
-/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.GeneratedMSBuildEditorConfig.editorconfig
-/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.AssemblyInfoInputs.cache
-/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.AssemblyInfo.cs
-/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.csproj.CoreCompileInputs.cache
-/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.sourcelink.json
-/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.dll
-/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/refint/OrderSolutions.Exception.dll
-/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.pdb
-/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/ref/OrderSolutions.Exception.dll
 C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.deps.json
 C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.dll
 C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.pdb
@@ -68,3 +56,41 @@ C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSol
 /app/OrderSolutions.Exception/obj/Debug/net9.0/refint/OrderSolutions.Exception.dll
 /app/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.pdb
 /app/OrderSolutions.Exception/obj/Debug/net9.0/ref/OrderSolutions.Exception.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.deps.json
+/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.pdb
+/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.GeneratedMSBuildEditorConfig.editorconfig
+/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.AssemblyInfoInputs.cache
+/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.AssemblyInfo.cs
+/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.csproj.CoreCompileInputs.cache
+/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.sourcelink.json
+/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/refint/OrderSolutions.Exception.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.pdb
+/home/henriquebacarin/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/ref/OrderSolutions.Exception.dll
+<<<<<<< HEAD
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.deps.json
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.pdb
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.AssemblyInfoInputs.cache
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.AssemblyInfo.cs
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.csproj.CoreCompileInputs.cache
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.sourcelink.json
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/refint/OrderSolutions.Exception.dll
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.pdb
+C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolutions.Exception/obj/Debug/net9.0/ref/OrderSolutions.Exception.dll
+/app/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.deps.json
+/app/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.dll
+/app/OrderSolutions.Exception/bin/Debug/net9.0/OrderSolutions.Exception.pdb
+/app/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.GeneratedMSBuildEditorConfig.editorconfig
+/app/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.AssemblyInfoInputs.cache
+/app/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.AssemblyInfo.cs
+/app/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.csproj.CoreCompileInputs.cache
+/app/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.dll
+/app/OrderSolutions.Exception/obj/Debug/net9.0/refint/OrderSolutions.Exception.dll
+/app/OrderSolutions.Exception/obj/Debug/net9.0/OrderSolutions.Exception.pdb
+/app/OrderSolutions.Exception/obj/Debug/net9.0/ref/OrderSolutions.Exception.dll
+=======
+>>>>>>> feat/LoginAndRegisterFrontEnd

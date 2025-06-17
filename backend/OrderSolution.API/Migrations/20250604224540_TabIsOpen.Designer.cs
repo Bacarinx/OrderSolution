@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OrderSolution.API.Context;
 
@@ -11,9 +12,11 @@ using OrderSolution.API.Context;
 namespace OrderSolution.API.Migrations
 {
     [DbContext(typeof(OrderSolutionDbContext))]
-    partial class OrderSolutionDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250604224540_TabIsOpen")]
+    partial class TabIsOpen
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -180,12 +183,9 @@ namespace OrderSolution.API.Migrations
                     b.Property<string>("Code")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-<<<<<<< HEAD
-=======
 
                     b.Property<bool?>("IsOpen")
                         .HasColumnType("bit");
->>>>>>> feat/LoginAndRegisterFrontEnd
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");

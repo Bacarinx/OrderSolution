@@ -13,6 +13,10 @@ namespace OrderSolution.API.Entities
         public string Code { get; set; } = String.Empty;
         public int UserId { get; set; }
         public int? ClientId { get; set; }
+<<<<<<< HEAD
+=======
+        public bool? IsOpen { get; set; }
+>>>>>>> feat/LoginAndRegisterFrontEnd
 
         [ForeignKey("UserId")]
         public User User { get; set; } = null!;

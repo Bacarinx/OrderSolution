@@ -35,9 +35,12 @@ services:
     container_name: react_app
     restart: on-failure
     ports:
-      - "3000:80"
+      - "3000:3000"
     depends_on:
       - api
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
 
 volumes:
   sqlserver_data:
