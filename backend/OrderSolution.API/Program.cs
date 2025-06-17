@@ -56,6 +56,16 @@ builder.Services.AddMvc(opt => opt.Filters.Add<ExceptionFilter>());
 
 builder.Services.AddHttpContextAccessor();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAny", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 var tokenGenerator = new SymetricGenerator();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
@@ -71,6 +81,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 });
 
 var app = builder.Build();
+
+app.UseCors("AllowAny");
 
 if (app.Environment.IsDevelopment()) app.MapOpenApi();
 

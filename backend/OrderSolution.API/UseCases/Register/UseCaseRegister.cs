@@ -10,7 +10,7 @@ using OrderSolutions.Exception;
 
 namespace OrderSolution.API.UseCases.User
 {
-    public class UseCaseUserRegister
+    public class UseCaseRegister
     {
         public ResponseUserRegisterJson Execute(RequestUserRegisterJson request, OrderSolutionDbContext context)
         {
@@ -33,8 +33,8 @@ namespace OrderSolution.API.UseCases.User
                 var responseException = new ExceptionRegisterUserResponse();
 
                 var errorList = responseException.Errors = errors;
-                
-;               throw new ExceptionUserRegister(errorList);
+
+                ; throw new ExceptionUserRegister(errorList);
             }
 
             var cript = new BCryptCriptograph();

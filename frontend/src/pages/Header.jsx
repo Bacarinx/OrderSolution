@@ -1,13 +1,15 @@
-import { useState } from "react";
+/* eslint-disable import/no-unresolved */
 import { PiBellDuotone } from "react-icons/pi";
 import { Outlet, Link } from "react-router-dom";
+import UserMenu from "../components/Header/UserMenu";
+import { useUser } from "../contexts/UserContext";
 
 function Header() {
-  var [userLogged, setUserLogged] = useState(false);
+  const { user } = new useUser();
 
   return (
     <>
-      <div>
+      <div className="relative z-0">
         <header className="flex justify-between items-center m-6">
           <div>
             <span className="text-2xl font-bold">OrderSolution</span>
@@ -37,13 +39,8 @@ function Header() {
             >
               Tabs
             </Link>
-            {userLogged === true ? (
-              <>
-                <div className="hover:bg-gray-200 transition hover:duration-500 rounded-full w-8 h-8 flex items-center justify-center cursor-pointer">
-                  <PiBellDuotone className="size-6" />
-                </div>
-                <div className="size-12 bg-gray-500 rounded-full cursor-pointer"></div>
-              </>
+            {user ? (
+              <UserMenu />
             ) : (
               <Link
                 to="/login"
@@ -56,8 +53,8 @@ function Header() {
             )}
           </div>
         </header>
-        <div className="flex justify-center items-center m-6">
-          <hr className="w-[100%] text-gray-300" />
+        <div className="flex justify-center items-center m-6 relative">
+          <hr className="w-[100%] text-gray-300 relative z-0" />
         </div>
       </div>
       <Outlet />

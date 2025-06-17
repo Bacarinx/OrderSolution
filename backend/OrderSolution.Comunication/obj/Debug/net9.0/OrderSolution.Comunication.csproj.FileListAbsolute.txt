@@ -33,18 +33,6 @@ C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.Co
 C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.Comunication/obj/Debug/net9.0/refint/OrderSolution.Comunication.dll
 C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.pdb
 C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/OrderSolution.Comunication/obj/Debug/net9.0/ref/OrderSolution.Comunication.dll
-/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/bin/Debug/net9.0/OrderSolution.Comunication.deps.json
-/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/bin/Debug/net9.0/OrderSolution.Comunication.dll
-/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/bin/Debug/net9.0/OrderSolution.Comunication.pdb
-/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.GeneratedMSBuildEditorConfig.editorconfig
-/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.AssemblyInfoInputs.cache
-/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.AssemblyInfo.cs
-/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.csproj.CoreCompileInputs.cache
-/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.sourcelink.json
-/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.dll
-/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/refint/OrderSolution.Comunication.dll
-/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.pdb
-/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/ref/OrderSolution.Comunication.dll
 C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolution.Comunication/bin/Debug/net9.0/OrderSolution.Comunication.deps.json
 C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolution.Comunication/bin/Debug/net9.0/OrderSolution.Comunication.dll
 C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSolution.Comunication/bin/Debug/net9.0/OrderSolution.Comunication.pdb
@@ -68,3 +56,15 @@ C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSol
 /app/OrderSolution.Comunication/obj/Debug/net9.0/refint/OrderSolution.Comunication.dll
 /app/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.pdb
 /app/OrderSolution.Comunication/obj/Debug/net9.0/ref/OrderSolution.Comunication.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/bin/Debug/net9.0/OrderSolution.Comunication.deps.json
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/bin/Debug/net9.0/OrderSolution.Comunication.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/bin/Debug/net9.0/OrderSolution.Comunication.pdb
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.GeneratedMSBuildEditorConfig.editorconfig
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.AssemblyInfoInputs.cache
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.AssemblyInfo.cs
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.csproj.CoreCompileInputs.cache
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.sourcelink.json
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/refint/OrderSolution.Comunication.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/OrderSolution.Comunication.pdb
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.Comunication/obj/Debug/net9.0/ref/OrderSolution.Comunication.dll
