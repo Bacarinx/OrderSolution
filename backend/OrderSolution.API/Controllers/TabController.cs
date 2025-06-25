@@ -56,5 +56,35 @@ namespace OrderSolution.API.Controllers
             useCase.TrocarPessoaComanda(id, request);
             return Ok(_context.Clients.FirstOrDefault(c => c.Id == request.clientId));
         }
+
+        [HttpGet]
+        [Authorize]
+        [ProducesResponseType(typeof(ResponseGetTabs), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [Route("[controller]")]
+        public IActionResult GetTabs(int pagenumber, string? code)
+        {
+            var useCase = new UseCaseTab(_context, _httpContext);
+            var res = useCase.GetTabs(pagenumber, code ?? String.Empty);
+
+            if (res.Qtd > 0)
+            {
+                return Ok(res);
+            }
+
+            return NoContent();
+        }
+
+        [HttpGet]
+        [Authorize]
+        [ProducesResponseType(typeof(ResponseDescribeTab), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [Route("[controller]/{code}")]
+        public IActionResult GetTabs(string code)
+        {
+            var useCase = new UseCaseTab(_context, _httpContext);
+            var res = useCase.GetTab(code);
+            return Ok(res);
+        }
     }
 }

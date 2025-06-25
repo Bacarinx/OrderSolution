@@ -7,6 +7,7 @@ using OrderSolution.API.Entities;
 using OrderSolution.API.Middleware;
 using OrderSolution.API.Services.LoggedUser;
 using OrderSolution.Comunication.Requests;
+using OrderSolution.Comunication.Responses;
 using OrderSolutions.Exception;
 
 namespace OrderSolution.API.UseCases.Tab
@@ -17,6 +18,8 @@ namespace OrderSolution.API.UseCases.Tab
         private readonly IHttpContextAccessor _httpcontext;
         private readonly UserMiddlaware _middlaware;
         private readonly Entities.User? User;
+        private const int STEP = 10;
+
         public UseCaseTab(OrderSolutionDbContext context, IHttpContextAccessor httpcontext)
         {
             _context = context;
@@ -76,6 +79,87 @@ namespace OrderSolution.API.UseCases.Tab
 
             tab!.ClientId = request.clientId;
             _context.SaveChanges();
+        }
+
+        public ResponseGetTabs GetTabs(int pagenumber, string code)
+        {
+            var query = _context.Tab.AsQueryable();
+            query = query.Where(t => t.UserId == User!.Id);
+
+            if (!String.IsNullOrWhiteSpace(code))
+            {
+                query = query.Where(t => t.Code.Contains(code));
+            }
+
+            var total = query.Count();
+            var result = query.OrderBy(q => q.Code)
+                              .Skip(STEP * (pagenumber - 1))
+                              .Take(STEP)
+                              .ToList();
+            List<ResponseTab> tabs = [];
+
+            foreach (var tab in result)
+            {
+                var client = _context.Clients.FirstOrDefault(c => c.Id == tab.ClientId);
+                decimal tabValue = 0;
+
+                var OpenItensTab = _context.TabProducts.Where(tp => tp.IsPaid == false && tp.TabId == tab.Id).ToList();
+                foreach (var i in OpenItensTab)
+                {
+                    tabValue += _context.Products.FirstOrDefault(a => a.Id == i.ProductId)!.Price;
+                }
+
+                tabs.Add(
+                    new ResponseTab
+                    {
+                        Code = tab.Code,
+                        UserId = User!.Id,
+                        ClientName = client?.Name,
+                        ClientCPF = client?.CPF,
+                        Value = tabValue,
+                        IsOpen = tab.IsOpen
+                    }
+                );
+            }
+
+            return new ResponseGetTabs
+            {
+                Tabs = tabs,
+                Qtd = total
+            };
+        }
+
+        public ResponseDescribeTab GetTab(string code)
+        {
+            var tab = _context.Tab.FirstOrDefault(t => t.Code == code && t.UserId == User!.Id);
+            decimal tabValue = 0;
+            var client = _context.Clients.FirstOrDefault(c => c.Id == tab!.ClientId);
+            var OpenItensTab = _context.TabProducts.Where(tp => tp.IsPaid == false && tp.TabId == tab!.Id).ToList();
+
+            List<ResponseProductsOnTab> products = [];
+
+            foreach (var i in OpenItensTab)
+            {
+                var produto = _context.Products.FirstOrDefault(a => a.Id == i.ProductId);
+                tabValue += produto!.Price;
+
+                products.Add(new ResponseProductsOnTab
+                {
+                    Value = produto.Price,
+                    ProductName = produto.Name,
+                    InsertionDate = i.InsertionDate
+                });
+            }
+
+            return new ResponseDescribeTab
+            {
+                Code = tab!.Code,
+                ClientName = client?.Name,
+                ClientCPF = client?.CPF,
+                IsOpen = tab.IsOpen,
+                Value = tabValue,
+                Products = products
+            };
         }
     }
 }
