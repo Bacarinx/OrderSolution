@@ -50,7 +50,7 @@ namespace OrderSolution.API.Controllers
 
         [HttpDelete]
         [Authorize]
-        [Route("id")]
+        [Route("{id}")]
         public IActionResult RemoverProduto(int id)
         {
             var useCase = new UseCaseProduct(_context, _httpContext);
@@ -60,7 +60,7 @@ namespace OrderSolution.API.Controllers
 
         [HttpPatch]
         [Authorize]
-        [Route("id")]
+        [Route("{id}")]
         public IActionResult AtualizarProduto(int id, RequestProductUpdate request)
         {
             var useCase = new UseCaseProduct(_context, _httpContext);

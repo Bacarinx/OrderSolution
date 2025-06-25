@@ -70,6 +70,7 @@ namespace OrderSolution.API.UseCases.Product
 
             List<ResponseProduct> produtos = result.Select(produto => new ResponseProduct
             {
+                Id = produto.Id,
                 Name = produto.Name,
                 CategoryId = produto.CategoryId,
                 Price = produto.Price
