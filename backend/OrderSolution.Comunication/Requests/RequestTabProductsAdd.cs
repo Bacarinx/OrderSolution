@@ -9,5 +9,6 @@ namespace OrderSolution.Comunication.Requests
     {
         public int TabId { get; set; }
         public int ProductId { get; set; }
+        public int ServiceId { get; set; }
     }
 }

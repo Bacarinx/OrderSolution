@@ -18,7 +18,7 @@ namespace OrderSolution.API.UseCases.Tab
         private readonly IHttpContextAccessor _httpcontext;
         private readonly UserMiddlaware _middlaware;
         private readonly Entities.User? User;
-        private const int STEP = 10;
+        private const int STEP = 64;
 
         public UseCaseTab(OrderSolutionDbContext context, IHttpContextAccessor httpcontext)
         {
@@ -92,13 +92,19 @@ namespace OrderSolution.API.UseCases.Tab
             }
 
             var total = query.Count();
-            var result = query.OrderBy(q => q.Code)
+
+            if (pagenumber != 0)
+            {
+                query = query.OrderBy(c => c.Code)
                               .Skip(STEP * (pagenumber - 1))
-                              .Take(STEP)
-                              .ToList();
+                              .Take(STEP);
+            }
+
             List<ResponseTab> tabs = [];
 
-            foreach (var tab in result)
+            var queryList = query.OrderBy(c => c.Code).ToList();
+
+            foreach (var tab in queryList)
             {
                 var client = _context.Clients.FirstOrDefault(c => c.Id == tab.ClientId);
                 decimal tabValue = 0;
@@ -145,6 +151,7 @@ namespace OrderSolution.API.UseCases.Tab
 
                 products.Add(new ResponseProductsOnTab
                 {
+                    TabProductId = i.Id,
                     Value = produto.Price,
                     ProductName = produto.Name,
                     InsertionDate = i.InsertionDate

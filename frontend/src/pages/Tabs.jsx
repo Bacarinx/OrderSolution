@@ -101,15 +101,9 @@ function Tabs() {
         </div>
         <hr className="text-gray-300" />
 
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-8 gap-4">
           {tabs.tabs.map((m) => (
-            <TabStructure
-              key={m.code}
-              clientName={m.clientName || "Sem cliente"}
-              clientCPF={m.clientCPF || "Sem cliente"}
-              code={m.code}
-              value={m.value}
-            />
+            <TabStructure key={m.code} code={m.code} />
           ))}
         </div>
 

@@ -78,5 +78,98 @@ namespace OrderSolution.API.UseCases.Services
                 UserId = user.Id
             };
         }
+
+        public List<ResponseGetOneService> GetServices()
+        {
+            var userLogged = new LoggedUserService(_httpContext);
+            var user = userLogged.GetUser(_context);
+
+            var userMiddlaware = new UserMiddlaware();
+            userMiddlaware.UserMid<IOwnedUserId>(user, null);
+
+            var services = _context.Services.Where(s => s.UserId == user.Id).ToList();
+            List<ResponseGetOneService> servicesReturn = [];
+
+            foreach (var i in services)
+            {
+                var ServiceClients = _context.ServiceClients.Where(c => c.ServiceId == i.Id).ToList();
+                List<ResponseClient> clients = [];
+
+                if (ServiceClients.Count > 0)
+                {
+                    foreach (var sc in ServiceClients)
+                    {
+                        var clientOne = _context.Clients.FirstOrDefault(c => c.Id == sc.ClientId);
+                        clients.Add(new ResponseClient
+                        {
+                            Name = clientOne!.Name,
+                            ClientId = clientOne.Id,
+                            Email = clientOne.Email,
+                            CPF = clientOne.CPF,
+                            Gender = clientOne.Gender,
+                            PhoneNumber = clientOne.PhoneNumber
+                        });
+                    }
+                }
+
+                decimal value = 0;
+                value = _context.TabProducts.Where(tp => tp.ServiceId == i.Id).Sum(tp => tp.Price);
+
+                servicesReturn.Add(new ResponseGetOneService
+                {
+                    ServiceId = i.Id,
+                    StartService = i.StartService,
+                    EndService = i.EndService,
+                    Clients = clients,
+                    Value = value
+                });
+            }
+
+            return servicesReturn;
+        }
+
+        public ResponseGetOneService GetOneService(int serviceId)
+        {
+            var userLogged = new LoggedUserService(_httpContext);
+            var user = userLogged.GetUser(_context);
+            var userMiddlaware = new UserMiddlaware();
+            userMiddlaware.UserMid<IOwnedUserId>(user, null);
+
+            var service = _context.Services.FirstOrDefault(s => s.Id == serviceId);
+            userMiddlaware.NullMid(service, "Service");
+
+            var ServiceClients = _context.ServiceClients.Where(c => c.ServiceId == serviceId).ToList();
+            List<ResponseClient> clients = [];
+
+            if (ServiceClients.Count > 0)
+            {
+                foreach (var sc in ServiceClients)
+                {
+                    var clientOne = _context.Clients.FirstOrDefault(c => c.Id == sc.ClientId);
+                    clients.Add(new ResponseClient
+                    {
+                        Name = clientOne!.Name,
+                        ClientId = clientOne.Id,
+                        Email = clientOne.Email,
+                        CPF = clientOne.CPF,
+                        Gender = clientOne.Gender,
+                        PhoneNumber = clientOne.PhoneNumber
+                    });
+                }
+            }
+
+            decimal value = 0;
+
+            var produtos = _context.TabProducts.Where(tp => tp.ServiceId == serviceId);
+            value = produtos.Sum(s => s.Price);
+            return new ResponseGetOneService
+            {
+                ServiceId = service!.Id,
+                StartService = service.StartService,
+                EndService = service.EndService,
+                Clients = clients,
+                Value = value
+            };
+        }
     }
 }

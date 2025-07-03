@@ -49,6 +49,8 @@ namespace OrderSolution.API.UseCases.TabProducts
                     UserId = _User.Id,
                     ClientId = client!.Id,
                     InsertionDate = DateTime.UtcNow,
+                    ServiceId = req.ServiceId,
+                    Price = prod.Price,
                     IsActive = true,
                     IsPaid = false,
                     PaymentDate = null

@@ -34,7 +34,7 @@ namespace OrderSolution.API.Controllers
             return Created(string.Empty, response);
         }
 
-        [HttpPatch]
+        [HttpPut]
         [Route("[controller]/{ServiceId}")]
         [ProducesResponseType(typeof(ResponseService), StatusCodes.Status201Created)]
         [ProducesResponseType(typeof(ExceptionRegisterUserResponse), StatusCodes.Status401Unauthorized)]
@@ -42,6 +42,28 @@ namespace OrderSolution.API.Controllers
         {
             var useCase = new UseCaseServices(_context, _httpcontext);
             var response = useCase.EndService(ServiceId);
+            return Ok(response);
+        }
+
+        [HttpGet]
+        [Route("[controller]/")]
+        [ProducesResponseType(typeof(List<ResponseGetOneService>), StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(ExceptionRegisterUserResponse), StatusCodes.Status204NoContent)]
+        public IActionResult GetServices()
+        {
+            var useCase = new UseCaseServices(_context, _httpcontext);
+            var response = useCase.GetServices();
+            return Ok(response);
+        }
+
+        [HttpGet]
+        [Route("[controller]/{ServiceId}")]
+        [ProducesResponseType(typeof(ResponseGetOneService), StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(ExceptionRegisterUserResponse), StatusCodes.Status204NoContent)]
+        public IActionResult GetOneService(int ServiceId)
+        {
+            var useCase = new UseCaseServices(_context, _httpcontext);
+            var response = useCase.GetOneService(ServiceId);
             return Ok(response);
         }
     }

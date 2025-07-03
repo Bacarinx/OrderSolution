@@ -15,6 +15,8 @@ namespace OrderSolution.API.Entities
         public int ClientId { get; set; }
         public int ProductId { get; set; }
         public bool IsActive { get; set; }
+        public int ServiceId { get; set; }
+        public decimal Price { get; set; }
         public DateTime InsertionDate { get; set; }
         public bool IsPaid { get; set; }
         public DateTime? PaymentDate { get; set; }
@@ -22,8 +24,12 @@ namespace OrderSolution.API.Entities
         [ForeignKey("TabId")]
         public Tab Tab { get; set; } = null!;
 
+        [ForeignKey("ServiceId")]
+        public Service Service { get; set; } = null!;
+
         [ForeignKey("UserId")]
         public User User { get; set; } = null!;
+
         [ForeignKey("ClientId")]
         public Client Client { get; set; } = null!;
 

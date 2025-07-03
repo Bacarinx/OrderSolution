@@ -1,5 +1,4 @@
 /* eslint-disable import/no-unresolved */
-import { PiBellDuotone } from "react-icons/pi";
 import { Outlet, Link } from "react-router-dom";
 import UserMenu from "../components/Header/UserMenu";
 import { useUser } from "../contexts/UserContext";

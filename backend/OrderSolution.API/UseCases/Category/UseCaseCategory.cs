@@ -30,14 +30,14 @@ namespace OrderSolution.API.UseCases.Category
 
         public string CriarCategoria(RequestCategory request)
         {
-            var CategoryAlreadyExists = _context.Categories.FirstOrDefault(cat => cat.Name == request.Name);
+            var loggedUser = new LoggedUserService(_httpContext);
+            var user = loggedUser.GetUser(_context);
+
+            var CategoryAlreadyExists = _context.Categories.FirstOrDefault(cat => cat.Name == request.Name && cat.UserId == user.Id);
             if (CategoryAlreadyExists != null)
             {
                 throw new ExceptionCategory();
             }
-
-            var loggedUser = new LoggedUserService(_httpContext);
-            var user = loggedUser.GetUser(_context);
 
             var response = new Entities.Category
             {
@@ -74,6 +74,12 @@ namespace OrderSolution.API.UseCases.Category
             Middlaware.NullMid(categorieToBeUpdate, "Produto");
             Middlaware.UserMid(ActualLoggedUser, categorieToBeUpdate);
 
+            var CategoryAlreadyExists = _context.Categories.FirstOrDefault(cat => cat.Name == request.NewName && cat.UserId == ActualLoggedUser.Id);
+            if (CategoryAlreadyExists != null)
+            {
+                throw new ExceptionCategory();
+            }
+
             categorieToBeUpdate!.Name = request.NewName;
             _context.SaveChanges();
         }
@@ -90,7 +96,8 @@ namespace OrderSolution.API.UseCases.Category
             List<ModelCategory> categories = [];
             foreach (var q in query)
             {
-                categories.Add(new ModelCategory{
+                categories.Add(new ModelCategory
+                {
                     CategoryId = q.Id,
                     CategoryName = q.Name
                 });

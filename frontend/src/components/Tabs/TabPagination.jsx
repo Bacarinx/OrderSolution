@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 function TabPagination({ qtd, actualPage, onPageChange }) {
-  const pages = Math.ceil(qtd / 10);
+  const pages = Math.ceil(qtd / 64);
   const pageNumbers = Array.from({ length: pages }, (_, i) => i + 1);
 
   return (

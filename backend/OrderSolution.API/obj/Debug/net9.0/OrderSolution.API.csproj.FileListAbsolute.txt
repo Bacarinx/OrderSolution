@@ -1056,3 +1056,5 @@ C:/Users/henri/OneDrive/Área de Trabalho/Estudos/OrderSolution/backend/OrderSol
 /home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.pdb
 /home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/OrderSolution.API.genruntimeconfig.cache
 /home/henriquebacarin/OrderSolution/backend/OrderSolution.API/obj/Debug/net9.0/ref/OrderSolution.API.dll
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/package-lock.json
+/home/henriquebacarin/OrderSolution/backend/OrderSolution.API/bin/Debug/net9.0/package.json

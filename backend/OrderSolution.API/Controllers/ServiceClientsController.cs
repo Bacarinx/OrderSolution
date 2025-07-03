@@ -45,5 +45,15 @@ namespace OrderSolution.API.Controllers
             useCase.RemoveClientFromService(serviceClientId);
             return Ok("Cliente Retirado do servico com sucesso!");
         }
+
+        [HttpGet]
+        [Authorize]
+        [Route("[controller]/{serviceId}")]
+        public IActionResult GetClients(int serviceId)
+        {
+            var useCase = new UseCaseServiceClient(_context, _httpcontext);
+            var res = useCase.GetServiceClients(serviceId);
+            return Ok(res);
+        }
     }
 }

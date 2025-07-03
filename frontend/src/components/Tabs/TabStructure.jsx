@@ -1,25 +1,13 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router";
 
-function TabStructure({ code, clientName, clientCPF, value }) {
+function TabStructure({ code }) {
   return (
-    <div className="rounded-4xl w-full border-zinc-600 border p-4 my-6">
-      <h1 className="my-6 text-4xl font-bold text-center">{code}</h1>
-      <div className="mt-2">
-        <span className="font-bold">Cliente: </span>
-        <span>{clientName}</span>
-      </div>
-      <div className="mt-2">
-        <span className="font-bold">CPF: </span>
-        <span>{clientCPF}</span>
-      </div>
-      <div className="mt-2">
-        <span className="font-bold">Valor: </span>
-        <span>R${value}</span>
-      </div>
+    <div className="rounded-xl w-full border-zinc-600 border p-4 my-4">
+      <h1 className="my-2 text-xl font-bold text-center">{code}</h1>
       <Link className="" to={`/tabs/${code}`}>
-        <div className=" rounded-xl w-full h-5 bg-blue-700 text-white hover:bg-blue-500 flex justify-center items-center font-bold p-4 mt-4">
-          Visualizar comanda
+        <div className=" rounded-xl w-full h-5 bg-blue-700 text-white hover:bg-blue-500 flex justify-center items-center font-bold p-4 mt-2">
+          View
         </div>
       </Link>
     </div>

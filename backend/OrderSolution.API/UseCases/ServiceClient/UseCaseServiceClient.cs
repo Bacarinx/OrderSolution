@@ -29,7 +29,7 @@ namespace OrderSolution.API.UseCases.ServiceClient
         public ResponseClientServiceAdded AddClientInService(int serviceid, int clientid)
         {
             var client = _context.Clients.FirstOrDefault(c => c.Id == clientid);
-            var service = _context.Services.FirstOrDefault(s => s.Id == clientid);
+            var service = _context.Services.FirstOrDefault(s => s.Id == serviceid);
 
             Middlaware.NullMid(service, "Serviço");
             Middlaware.NullMid(client, "Cliente");
@@ -47,7 +47,8 @@ namespace OrderSolution.API.UseCases.ServiceClient
             var serviceClient = new Entities.ServiceClient
             {
                 ClientId = client!.Id,
-                ServiceId = service.Id
+                ServiceId = service.Id,
+                UserId = user.Id
             };
 
             _context.ServiceClients.Add(serviceClient);
@@ -71,6 +72,37 @@ namespace OrderSolution.API.UseCases.ServiceClient
 
             _context.ServiceClients.Remove(serviceClient!);
             _context.SaveChanges();
+        }
+
+        public ResponseServiceClients GetServiceClients(int serviceId)
+        {
+            var serviceClients = _context.ServiceClients.Where(sc => sc.ServiceId == serviceId).ToList();
+            List<ResponseClient> clients = [];
+
+            if (serviceClients.Count > 0)
+            {
+                foreach (var i in serviceClients)
+                {
+                    var client = _context.Clients.FirstOrDefault(c => c.Id == i.ClientId);
+                    clients.Add(
+                        new ResponseClient
+                        {
+                            ClientId = client!.Id,
+                            CPF = client.CPF,
+                            Email = client.Email,
+                            Gender = client.Gender,
+                            Name = client.Name,
+                            PhoneNumber = client.PhoneNumber
+                        }
+                    );
+                }
+            }
+
+            return new ResponseServiceClients
+            {
+                ServiceId = serviceId,
+                Clients = clients
+            };
         }
     }
 }

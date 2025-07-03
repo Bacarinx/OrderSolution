@@ -58,7 +58,14 @@ namespace OrderSolution.API.Context
                 .WithMany()
                 .HasForeignKey(s => s.ClientId)
                 .OnDelete(DeleteBehavior.NoAction);
-
+            modelBuilder.Entity<TabProducts>()
+                .HasOne(p => p.Service)
+                .WithMany()
+                .HasForeignKey(s => s.ServiceId)
+                .OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<TabProducts>()
+                .Property(p => p.Price)
+                .HasPrecision(18, 2);
         }
     }
 }
