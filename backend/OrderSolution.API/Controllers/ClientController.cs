@@ -52,5 +52,25 @@ namespace OrderSolution.API.Controllers
             var res = useCase.UpdateClient(ClientId, req);
             return Ok(res);
         }
+
+        [HttpGet]
+        [Authorize]
+        [Route("[controller]")]
+        public IActionResult GetClients()
+        {
+            var useCase = new UseCaseClient(_context, _httpcontext);
+            var res = useCase.GetClients();
+            return Ok(res);
+        }
+
+        [HttpGet]
+        [Authorize]
+        [Route("[controller]/{ClientId}")]
+        public IActionResult GetOneClient(int ClientId)
+        {
+            var useCase = new UseCaseClient(_context, _httpcontext);
+            var res = useCase.GetOneClient(ClientId);
+            return Ok(res);
+        }
     }
 }

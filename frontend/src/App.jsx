@@ -2,9 +2,12 @@
 import "./index.css";
 import { Routes, Route } from "react-router-dom";
 import Categories from "./pages/Categories";
+import ClientDetails from "./pages/ClientDetails";
+import Clients from "./pages/Clients";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import NewCategory from "./pages/NewCategory";
+import NewClient from "./pages/NewClient";
 import NewProduct from "./pages/NewProduct";
 import NewTab from "./pages/NewTab";
 import NotFound from "./pages/NotFound";
@@ -20,6 +23,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/clients" element={<Clients />} />
+      <Route path="/clients/new-client" element={<NewClient />} />
+      <Route path="/clients/:id" element={<ClientDetails />} />
       <Route path="/category" element={<Categories />} />
       <Route path="/category/:id" element={<Products />} />
       <Route path="/category/:id/new-product" element={<NewProduct />} />

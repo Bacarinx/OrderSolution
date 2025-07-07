@@ -100,5 +100,44 @@ namespace OrderSolution.API.UseCases.Client
 
             return req;
         }
+
+        public List<ResponseGetClient> GetClients()
+        {
+            var clientsReq = _context.Clients.Where(c => c.UserId == _user.Id);
+            _middlaware.NullMid(clientsReq, "Cliente");
+
+            List<ResponseGetClient> clients = [];
+            foreach (var client in clientsReq)
+            {
+                clients.Add(new ResponseGetClient
+                {
+                    Id = client.Id,
+                    CPF = client.CPF,
+                    Email = client.Email,
+                    Gender = client.Gender,
+                    Name = client.Name,
+                    PhoneNumber = client.PhoneNumber
+                });
+            }
+            return clients;
+        }
+
+        public ResponseGetClient GetOneClient(int ClientId)
+        {
+            var clientsReq = _context.Clients.FirstOrDefault(c => c.UserId == _user.Id && c.Id == ClientId);
+            _middlaware.NullMid(clientsReq, "Cliente");
+
+            ResponseGetClient client = new ResponseGetClient
+            {
+                Id = clientsReq!.Id,
+                CPF = clientsReq.CPF,
+                Email = clientsReq.Email,
+                Gender = clientsReq.Gender,
+                Name = clientsReq.Name,
+                PhoneNumber = clientsReq.PhoneNumber
+            };
+
+            return client;
+        }
     }
 }

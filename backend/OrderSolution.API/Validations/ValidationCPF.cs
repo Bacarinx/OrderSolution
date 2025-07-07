@@ -18,11 +18,6 @@ namespace OrderSolution.API.Validations
 
             RuleFor(x => x.Email)
                 .EmailAddress();
-
-            RuleFor(x => x.Gender)
-                .NotEmpty().WithMessage("O Gênero é obrigatório")
-                .Must(g => g == "M" || g == "F")
-                .WithMessage("O Gênero deve ser 'M' ou 'F'.");
         }
 
         private bool IsCpfValid(string cpf)
