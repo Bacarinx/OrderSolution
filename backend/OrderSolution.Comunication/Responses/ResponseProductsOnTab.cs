@@ -11,5 +11,6 @@ namespace OrderSolution.Comunication.Responses
         public string ProductName { get; set; } = String.Empty;
         public DateTime InsertionDate { get; set; }
         public decimal Value { get; set; }
+        public bool IsActive { get; set; }
     }
 }

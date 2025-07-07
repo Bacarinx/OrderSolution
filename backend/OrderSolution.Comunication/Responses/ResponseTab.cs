@@ -7,6 +7,7 @@ namespace OrderSolution.Comunication.Responses
 {
     public class ResponseTab
     {
+        public int TabId { get; set; }
         public string Code { get; set; } = String.Empty;
         public string? ClientName { get; set; } = String.Empty;
         public string? ClientCPF { get; set; } = String.Empty;

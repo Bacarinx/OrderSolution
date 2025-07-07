@@ -102,8 +102,8 @@ function Tabs() {
         <hr className="text-gray-300" />
 
         <div className="grid grid-cols-8 gap-4">
-          {tabs.tabs.map((m) => (
-            <TabStructure key={m.code} code={m.code} />
+          {tabs.tabs.map((m, i) => (
+            <TabStructure key={i} code={m.code} />
           ))}
         </div>
 

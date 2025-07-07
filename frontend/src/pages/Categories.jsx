@@ -39,8 +39,8 @@ function Categories() {
 
       <div className="flex flex-wrap gap-4 mb-6">
         {categories.length > 0 ? (
-          categories.map((cat) => (
-            <Link to={`/category/${cat.categoryName}`} key={cat.id}>
+          categories.map((cat, index) => (
+            <Link to={`/category/${cat.categoryName}`} key={index}>
               <button
                 className={
                   "px-4 py-2 rounded-full border transition hover:bg-blue-600 hover:text-white hover:font-semibold bg-gray-100 text-gray-800"

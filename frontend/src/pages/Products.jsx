@@ -69,19 +69,30 @@ function Products() {
         <h1 className="text-3xl font-bold text-blue-700">
           <strong>Categoria:</strong> {categoryName}
         </h1>
-        <button
-          onClick={() => navigate(`/category/${id}/new-product`)}
-          className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition"
-        >
-          Criar Produto
-        </button>
+        <div className="flex gap-2">
+          <button
+            onClick={() => navigate(`/category/${id}/new-product`)}
+            className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition"
+          >
+            Criar Produto
+          </button>
+          <button
+            onClick={() =>
+              navigate(`/category Bacarin54
+              `)
+            }
+            className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition"
+          >
+            Cancelar
+          </button>
+        </div>
       </div>
 
       {products.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {products.map((p) => (
+          {products.map((p, index) => (
             <div
-              key={p.id}
+              key={index}
               className="border p-4 rounded shadow-sm hover:shadow-md transition flex justify-between items-center"
             >
               <div>

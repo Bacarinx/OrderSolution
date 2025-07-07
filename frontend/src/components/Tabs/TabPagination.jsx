@@ -5,10 +5,10 @@ function TabPagination({ qtd, actualPage, onPageChange }) {
 
   return (
     <div className="flex gap-2 justify-start mt-4">
-      {pageNumbers.map((n) => {
+      {pageNumbers.map((n, index) => {
         return (
           <button
-            key={n}
+            key={index}
             onClick={() => onPageChange(n)}
             className={`px-3 py-1 rounded border ${
               n === actualPage

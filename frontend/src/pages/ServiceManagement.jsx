@@ -38,6 +38,7 @@ function ServiceManagement() {
         setErrors([...errors, "Não há serviços abertos!"]);
         return;
       }
+
       setService(openService);
       setValue(openService[0].value);
       setClients(fetchClients(openService[0].serviceId));
@@ -56,7 +57,7 @@ function ServiceManagement() {
       const tab = res.tabs.filter((s) => s.isOpen);
       setTabs(tab.length);
     } catch {
-      setErrors([...errors, "Erro ao carregar serviço"]);
+      setErrors([...errors, "Erro ao carregar Comanda"]);
     }
   };
 

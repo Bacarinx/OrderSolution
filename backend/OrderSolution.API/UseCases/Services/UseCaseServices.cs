@@ -113,7 +113,7 @@ namespace OrderSolution.API.UseCases.Services
                 }
 
                 decimal value = 0;
-                value = _context.TabProducts.Where(tp => tp.ServiceId == i.Id).Sum(tp => tp.Price);
+                value = _context.TabProducts.Where(tp => tp.ServiceId == i.Id && tp.IsActive == true).Sum(tp => tp.Price);
 
                 servicesReturn.Add(new ResponseGetOneService
                 {

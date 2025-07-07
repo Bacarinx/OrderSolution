@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import axios from "axios";
 import { useState } from "react";
+import { useNavigate } from "react-router";
 import Cookie from "universal-cookie";
 
 function NewCategory() {
@@ -8,6 +9,8 @@ function NewCategory() {
   const [createdCategory, setCreatedCategory] = useState(null);
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState(null);
+
+  const navigate = useNavigate();
 
   const handleChangeInput = (e) => {
     setErrors(null);
@@ -61,7 +64,7 @@ function NewCategory() {
           />
         </div>
 
-        <div>
+        <div className="flex gap-2">
           <button
             type="submit"
             disabled={loading}
@@ -70,6 +73,12 @@ function NewCategory() {
             }`}
           >
             {loading ? "Criando..." : "Criar Categoria"}
+          </button>
+          <button
+            onClick={() => navigate("/category")}
+            className={`bg-red-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition`}
+          >
+            cancelar
           </button>
         </div>
       </form>

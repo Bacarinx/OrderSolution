@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import axios from "axios";
 import { useState } from "react";
+import { useNavigate } from "react-router";
 import Cookie from "universal-cookie";
 
 function TabCreate() {
@@ -8,6 +9,8 @@ function TabCreate() {
   const [createdTab, setCreatedTab] = useState(null);
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState(null);
+
+  const navigate = useNavigate();
 
   const handleChangeInput = (e) => {
     setErrors(null);
@@ -61,7 +64,7 @@ function TabCreate() {
           />
         </div>
 
-        <div>
+        <div className="flex gap-2">
           <button
             type="submit"
             disabled={loading}
@@ -70,6 +73,12 @@ function TabCreate() {
             }`}
           >
             {loading ? "Criando..." : "Criar Comanda"}
+          </button>
+          <button
+            onClick={() => navigate("/tabs")}
+            className={`bg-red-600 text-white px-6 py-2 rounded-md hover:bg-red-700 transition`}
+          >
+            Cancelar
           </button>
         </div>
       </form>

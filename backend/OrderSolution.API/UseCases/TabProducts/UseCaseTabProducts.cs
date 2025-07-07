@@ -84,7 +84,7 @@ namespace OrderSolution.API.UseCases.TabProducts
                 throw new ExceptionClientServices(["O produto já foi cancelado."]);
 
             prodTab.IsActive = false;
-
+            _context.SaveChanges();
             return "Produto Cancelado";
         }
 

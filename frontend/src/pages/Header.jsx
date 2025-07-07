@@ -21,6 +21,12 @@ function Header() {
               Menu
             </Link>
             <Link
+              to="/clients"
+              className="text-xl hover:text-gray-700 hover:underline hover:transition hover:duration-300 cursor-pointer"
+            >
+              Clients
+            </Link>
+            <Link
               to="/category"
               className="text-xl hover:text-gray-700 hover:underline hover:transition hover:duration-300 cursor-pointer"
             >

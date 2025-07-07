@@ -112,12 +112,14 @@ namespace OrderSolution.API.UseCases.Tab
                 var OpenItensTab = _context.TabProducts.Where(tp => tp.IsPaid == false && tp.TabId == tab.Id).ToList();
                 foreach (var i in OpenItensTab)
                 {
-                    tabValue += _context.Products.FirstOrDefault(a => a.Id == i.ProductId)!.Price;
+                    if (i.IsActive == true)
+                        tabValue += _context.Products.FirstOrDefault(a => a.Id == i.ProductId)!.Price;
                 }
 
                 tabs.Add(
                     new ResponseTab
                     {
+                        TabId = tab.Id,
                         Code = tab.Code,
                         UserId = User!.Id,
                         ClientName = client?.Name,
@@ -147,20 +149,26 @@ namespace OrderSolution.API.UseCases.Tab
             foreach (var i in OpenItensTab)
             {
                 var produto = _context.Products.FirstOrDefault(a => a.Id == i.ProductId);
-                tabValue += produto!.Price;
+
+                if (i.IsActive == true)
+                {
+                    tabValue += produto!.Price;
+                }
 
                 products.Add(new ResponseProductsOnTab
                 {
                     TabProductId = i.Id,
-                    Value = produto.Price,
+                    Value = produto!.Price,
                     ProductName = produto.Name,
-                    InsertionDate = i.InsertionDate
+                    InsertionDate = i.InsertionDate,
+                    IsActive = i.IsActive
                 });
             }
 
             return new ResponseDescribeTab
             {
-                Code = tab!.Code,
+                TabId = tab!.Id,
+                Code = tab.Code,
                 ClientName = client?.Name,
                 ClientCPF = client?.CPF,
                 IsOpen = tab.IsOpen,
