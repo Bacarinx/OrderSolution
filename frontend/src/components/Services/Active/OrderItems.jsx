@@ -1,14 +1,54 @@
 /* eslint-disable react/prop-types */
+import axios from "axios";
 import { BsFillTrash3Fill } from "react-icons/bs";
 import { useNavigate } from "react-router";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+import Cookie from "universal-cookie";
 
 function OrderItems({ comanda, products, onRemoveItem, onSaveTab }) {
   const navigate = useNavigate();
+  const MySwal = withReactContent(Swal);
 
   if (!comanda) return <div>Carregando...</div>;
 
   const cancelFunction = () => {
     navigate("/service/active");
+  };
+
+  const CloseTab = async () => {
+    const cookie = new Cookie();
+    const jwt = cookie.get("jwt_authorization");
+
+    const result = await MySwal.fire({
+      title: "Tem certeza?",
+      text: "Deseja realmente Fechar a Comanda?",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#d33",
+      cancelButtonColor: "#3085d6",
+      confirmButtonText: "Sim, Fechar",
+      cancelButtonText: "Cancelar",
+    });
+
+    if (!result.isConfirmed) return;
+
+    try {
+      await axios.put(
+        `http://localhost:5194/TabProducts/${comanda.tabId}`,
+        comanda.tabId,
+        {
+          headers: {
+            Authorization: `Bearer ${jwt}`,
+          },
+        },
+      );
+
+      MySwal.fire("Fechado!", "A comanda foi fechada com sucesso!", "success");
+      navigate("/service/active");
+    } catch {
+      MySwal.fire("Erro!", "Erro ao fechar comanda", "error");
+    }
   };
 
   let value = 0;
@@ -92,6 +132,12 @@ function OrderItems({ comanda, products, onRemoveItem, onSaveTab }) {
             onClick={onSaveTab}
           >
             Salvar Comanda
+          </button>
+          <button
+            className="w-full px-5 py-2 bg-yellow-600 text-white font-semibold rounded-md hover:bg-yellow-700 transition duration-150"
+            onClick={() => CloseTab()}
+          >
+            Fechar Comanda
           </button>
         </div>
       </div>

@@ -66,18 +66,30 @@ namespace OrderSolution.API.UseCases.Tab
 
         public void TrocarPessoaComanda(int id, RequestTabChangeClient request)
         {
-            var client = _context.Clients.FirstOrDefault(c => c.Id == request.clientId);
-            var tab = _context.Tab.FirstOrDefault(f => f.Id == id);
+            if (request.clientId != 0)
+            {
+                var client = _context.Clients.FirstOrDefault(c => c.Id == request.clientId);
+                _middlaware.NullMid(client, "Cliente");
+            }
 
-            _middlaware.NullMid(client, "Cliente");
+            var tab = _context.Tab.FirstOrDefault(f => f.Id == id);
             _middlaware.NullMid(tab, "Comanda");
             _middlaware.UserMid(User!, tab);
 
-            var PendentsProductsAmount = _context.TabProducts.Count(tp => tp.TabId == tab!.Id && tp.IsPaid == false);
+            var PendentsProductsAmount = _context.TabProducts.Count(tp => tp.TabId == tab!.Id && tp.IsPaid == false && tp.IsActive == true);
             if (PendentsProductsAmount > 0)
                 throw new ExceptionClientServices(["Você não pode substituir o cliente desta comanda! Há itens abertos a serem pagos."]);
 
-            tab!.ClientId = request.clientId;
+
+            if (request.clientId == 0)
+            {
+                tab!.ClientId = null;
+            }
+            else
+            {
+                tab!.ClientId = request.clientId;
+            }
+
             _context.SaveChanges();
         }
 
@@ -112,7 +124,7 @@ namespace OrderSolution.API.UseCases.Tab
                 var OpenItensTab = _context.TabProducts.Where(tp => tp.IsPaid == false && tp.TabId == tab.Id).ToList();
                 foreach (var i in OpenItensTab)
                 {
-                    if (i.IsActive == true)
+                    if (i.IsActive == true && i.IsPaid == false)
                         tabValue += _context.Products.FirstOrDefault(a => a.Id == i.ProductId)!.Price;
                 }
 
@@ -122,6 +134,7 @@ namespace OrderSolution.API.UseCases.Tab
                         TabId = tab.Id,
                         Code = tab.Code,
                         UserId = User!.Id,
+                        ClientId = client?.Id,
                         ClientName = client?.Name,
                         ClientCPF = client?.CPF,
                         Value = tabValue,
@@ -150,7 +163,7 @@ namespace OrderSolution.API.UseCases.Tab
             {
                 var produto = _context.Products.FirstOrDefault(a => a.Id == i.ProductId);
 
-                if (i.IsActive == true)
+                if (i.IsActive == true && i.IsPaid == false)
                 {
                     tabValue += produto!.Price;
                 }
@@ -169,6 +182,7 @@ namespace OrderSolution.API.UseCases.Tab
             {
                 TabId = tab!.Id,
                 Code = tab.Code,
+                ClientId = client?.Id,
                 ClientName = client?.Name,
                 ClientCPF = client?.CPF,
                 IsOpen = tab.IsOpen,

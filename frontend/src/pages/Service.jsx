@@ -114,7 +114,7 @@ function Service() {
   return (
     <div className="relative flex size-full flex-col  group/design-root overflow-x-hidden">
       <div className="layout-container flex h-full grow flex-col">
-        <div className="px-40 flex flex-1 justify-center py-5">
+        <div className=" flex flex-1 justify-center my-5">
           <div className="layout-content-container flex flex-col max-w-[960px] flex-1">
             <div className="flex flex-wrap justify-between gap-3 p-4">
               <div className="flex min-w-72 flex-col gap-3">
@@ -208,7 +208,7 @@ function Service() {
             <h2 className="text-blue-700 text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
               Servicos Antigos
             </h2>
-            {closedServices.length < 0 && (
+            {closedServices.length > 0 && (
               <div className="px-4 py-3">
                 <div className="overflow-hidden rounded-xl border border-[#d4dce2] bg-white shadow-sm">
                   <table className="w-full">

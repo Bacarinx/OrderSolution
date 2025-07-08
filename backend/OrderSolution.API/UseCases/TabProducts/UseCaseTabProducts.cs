@@ -42,6 +42,8 @@ namespace OrderSolution.API.UseCases.TabProducts
                 var client = _context.Clients.FirstOrDefault(c => c.Id == tab!.ClientId);
                 _middlaware.NullMid(client, "Cliente");
 
+
+
                 var prodToBeAdd = new Entities.TabProducts
                 {
                     TabId = tab!.Id,
@@ -64,6 +66,8 @@ namespace OrderSolution.API.UseCases.TabProducts
                 });
 
                 _context.TabProducts.Add(prodToBeAdd);
+
+                tab.IsOpen = true;
 
                 tab = null;
                 prod = null;
@@ -101,6 +105,7 @@ namespace OrderSolution.API.UseCases.TabProducts
                 l.IsPaid = true;
             }
 
+            tab!.IsOpen = false;
             _context.SaveChanges();
         }
     }

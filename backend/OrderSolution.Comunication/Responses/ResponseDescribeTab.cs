@@ -9,6 +9,7 @@ namespace OrderSolution.Comunication.Responses
     {
         public int TabId { get; set; }
         public string Code { get; set; } = String.Empty;
+        public int? ClientId { get; set; }
         public string? ClientName { get; set; } = String.Empty;
         public string? ClientCPF { get; set; } = String.Empty;
         public bool? IsOpen { get; set; }

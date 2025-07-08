@@ -65,6 +65,12 @@ namespace OrderSolution.API.UseCases.Services
             if (service.EndService != null)
                 throw new ExceptionServiceAlreadyEnds();
 
+            var TabProductsOnThisService = _context.TabProducts.Where(tp => tp.ServiceId == serviceid && tp.IsPaid == false).Count();
+            if (TabProductsOnThisService > 0)
+            {
+                throw new ExceptionCantEndService();
+            }
+
             service.StartService = service.StartService;
             service.UserId = user.Id;
             service.EndService = DateTime.UtcNow;
@@ -113,7 +119,7 @@ namespace OrderSolution.API.UseCases.Services
                 }
 
                 decimal value = 0;
-                value = _context.TabProducts.Where(tp => tp.ServiceId == i.Id && tp.IsActive == true).Sum(tp => tp.Price);
+                value = _context.TabProducts.Where(tp => tp.ServiceId == i.Id && tp.IsActive == true && tp.IsPaid == false).Sum(tp => tp.Price);
 
                 servicesReturn.Add(new ResponseGetOneService
                 {
@@ -160,7 +166,7 @@ namespace OrderSolution.API.UseCases.Services
 
             decimal value = 0;
 
-            var produtos = _context.TabProducts.Where(tp => tp.ServiceId == serviceId);
+            var produtos = _context.TabProducts.Where(tp => tp.ServiceId == serviceId && tp.IsActive == true && tp.IsPaid == false);
             value = produtos.Sum(s => s.Price);
             return new ResponseGetOneService
             {

@@ -12,6 +12,7 @@ import NewProduct from "./pages/NewProduct";
 import NewTab from "./pages/NewTab";
 import NotFound from "./pages/NotFound";
 import Products from "./pages/Products";
+import Profile from "./pages/Profile";
 import Register from "./pages/Register";
 import Service from "./pages/Service";
 import ServiceActive from "./pages/ServiceActive";
@@ -38,6 +39,7 @@ function App() {
       <Route path="/tabs/new" element={<NewTab />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
+      <Route path="/profile" element={<Profile />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 import Cookie from "universal-cookie";
 
 function Products() {
@@ -8,6 +10,8 @@ function Products() {
   const navigate = useNavigate();
   const [products, setProducts] = useState([]);
   const [categoryName, setCategoryName] = useState("");
+  const [categoryIdentification, setCategoryIdentification] = useState(null);
+  const MySwal = withReactContent(Swal);
 
   useEffect(() => {
     const cookie = new Cookie();
@@ -27,6 +31,7 @@ function Products() {
           (c) => c.categoryName.toUpperCase() == id.toUpperCase(),
         );
         const categoryId = category[0].categoryId;
+        setCategoryIdentification(categoryId);
 
         let filteredProducts = productsRes.data.filter(
           (p) => p.categoryId == categoryId,
@@ -41,12 +46,51 @@ function Products() {
     fetchData();
   }, [id]);
 
-  const handleDelete = async (productId) => {
-    const confirm = window.confirm("Deseja realmente excluir este produto?");
-    if (!confirm) return;
+  const cookie = new Cookie();
+  const jwt = cookie.get("jwt_authorization");
 
-    const cookie = new Cookie();
-    const jwt = cookie.get("jwt_authorization");
+  const deleteCategory = async (categoryId) => {
+    const result = await MySwal.fire({
+      title: "Tem certeza?",
+      text: "Deseja realmente excluir esta categoria?",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#d33",
+      cancelButtonColor: "#3085d6",
+      confirmButtonText: "Sim, excluir",
+      cancelButtonText: "Cancelar",
+    });
+
+    if (!result.isConfirmed) return;
+
+    try {
+      await axios.delete(`http://localhost:5194/Category/${categoryId}`, {
+        headers: {
+          Authorization: `Bearer ${jwt}`,
+        },
+      });
+
+      MySwal.fire("Excluído!", "A categoria foi removida.", "success");
+
+      navigate("/category");
+    } catch {
+      MySwal.fire("Erro!", "Erro ao excluir categoria.", "error");
+    }
+  };
+
+  const handleDelete = async (productId) => {
+    const result = await MySwal.fire({
+      title: "Tem certeza?",
+      text: "Deseja realmente excluir Este Produto?",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#d33",
+      cancelButtonColor: "#3085d6",
+      confirmButtonText: "Sim, excluir",
+      cancelButtonText: "Cancelar",
+    });
+
+    if (!result.isConfirmed) return;
 
     try {
       await axios.delete(`http://localhost:5194/Product/${productId}`, {
@@ -55,11 +99,10 @@ function Products() {
         },
       });
 
-      // Atualiza a lista localmente após deletar
+      MySwal.fire("Excluído!", "O produto foi removido.", "success");
       setProducts((prev) => prev.filter((p) => p.id !== productId));
-    } catch (err) {
-      console.error("Erro ao excluir produto:", err);
-      alert("Erro ao excluir produto.");
+    } catch {
+      MySwal.fire("Erro!", "Erro ao excluir Produto.", "error");
     }
   };
 
@@ -77,10 +120,7 @@ function Products() {
             Criar Produto
           </button>
           <button
-            onClick={() =>
-              navigate(`/category Bacarin54
-              `)
-            }
+            onClick={() => navigate(`/category`)}
             className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition"
           >
             Cancelar
@@ -113,6 +153,12 @@ function Products() {
       ) : (
         <p className="text-gray-500">Nenhum produto nesta categoria.</p>
       )}
+      <button
+        onClick={() => deleteCategory(categoryIdentification)}
+        className="text-red-600 hover:text-red-800 font-medium mt-4 p-3 bg-red-200 border border-red-800 rounded-md"
+      >
+        Excluir Categoria
+      </button>
     </div>
   );
 }

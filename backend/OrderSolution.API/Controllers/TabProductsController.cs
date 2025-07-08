@@ -44,5 +44,15 @@ namespace OrderSolution.API.Controllers
             useCase.CancelProduct(idProductTab);
             return Ok("Produto cancelado.");
         }
+
+        [HttpPut]
+        [Authorize]
+        [Route("{tabId}")]
+        public IActionResult EndTab(int tabId)
+        {
+            var useCase = new UseCaseTabProducts(_context, _httpcontext);
+            useCase.TabPayment(tabId);
+            return Ok("Comanda encerrada com sucesso!");
+        }
     }
 }

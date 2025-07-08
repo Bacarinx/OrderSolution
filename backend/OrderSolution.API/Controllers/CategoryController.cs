@@ -39,6 +39,8 @@ namespace OrderSolution.API.Controllers
 
         [HttpDelete]
         [Authorize]
+        [Route("{categoryId}")]
+
         public IActionResult Delete(int categoryId)
         {
             var useCase = new UseCaseCategory(_context, _httpContext);

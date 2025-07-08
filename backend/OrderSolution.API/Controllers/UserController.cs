@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using OrderSolution.API.Context;
 using OrderSolution.API.UseCases.User;
+using OrderSolution.Comunication.Requests;
 using OrderSolution.Comunication.Responses;
 
 namespace OrderSolution.API.Controllers
@@ -33,5 +34,13 @@ namespace OrderSolution.API.Controllers
             return Ok(res);
         }
 
+        [HttpPatch]
+        [Authorize]
+        public IActionResult UpdateUser(requestUpdateUser req)
+        {
+            var usecase = new UseCaseUser(_context, _httpcontext);
+            usecase.UpdateUser(req);
+            return Ok("Usuário Atualizado com Sucesso!");
+        }
     }
 }
