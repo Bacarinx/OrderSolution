@@ -65,7 +65,8 @@ cd OrderSolution
 docker compose up --build
 
 ### 3. Acesso
-Acesse a aplicação Web no endereço: http://localhost:5173/.
+Acesse a aplicação Web no endereço: http://localhost:5173/
+Se esse endereço não funcionar, acesse este: http://172.18.0.4:5173/
 
 ## 🔐 Autenticação
 
