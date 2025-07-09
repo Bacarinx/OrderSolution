@@ -1,7 +1,7 @@
 /* eslint-disable import/no-unresolved */
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 import Cookie from "universal-cookie";
 import TabPagination from "../components/Tabs/TabPagination";
 import TabStructure from "../components/Tabs/TabStructure";
@@ -12,6 +12,7 @@ function Tabs() {
   const [tabs, setTabs] = useState({ tabs: [], qtd: 0 });
   const [numberPage, setNumberPage] = useState(1);
   const [code, setCode] = useState("");
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchTabs = async () => {
@@ -47,8 +48,11 @@ function Tabs() {
       <div className="w-[70%] px-6 mb-8">
         <div className=" flex items-center justify-between">
           <h1 className="text-5xl font-bold">Tabs</h1>
-          <button className="bg-blue-700 hover:bg-blue-800 focus:ring-4 text-white px-4 py-2 rounded-md">
-            <Link to={"/tabs/new"}>New Tab</Link>
+          <button
+            className="bg-blue-700 hover:bg-blue-800 focus:ring-4 text-white px-4 py-2 rounded-md"
+            onClick={() => navigate("/tabs/new")}
+          >
+            New Tab
           </button>
         </div>
         <form className="max-w-md my-4">

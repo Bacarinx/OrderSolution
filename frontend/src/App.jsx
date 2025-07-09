@@ -1,6 +1,7 @@
 /* eslint-disable import/no-unresolved */
 import "./index.css";
 import { Routes, Route } from "react-router-dom";
+import PrivateRouter from "./components/PrivateRouter";
 import Categories from "./pages/Categories";
 import ClientDetails from "./pages/ClientDetails";
 import Clients from "./pages/Clients";
@@ -24,22 +25,27 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/clients" element={<Clients />} />
-      <Route path="/clients/new-client" element={<NewClient />} />
-      <Route path="/clients/:id" element={<ClientDetails />} />
-      <Route path="/category" element={<Categories />} />
-      <Route path="/category/:id" element={<Products />} />
-      <Route path="/category/:id/new-product" element={<NewProduct />} />
-      <Route path="/category/new" element={<NewCategory />} />
-      <Route path="/service" element={<Service />} />
-      <Route path="/service/active" element={<ServiceManagement />} />
-      <Route path="/service/active/:code" element={<ServiceActive />} />
-      <Route path="/tabs" element={<Tabs />} />
-      <Route path="/tabs/:tabcode" element={<Tab />} />
-      <Route path="/tabs/new" element={<NewTab />} />
+
+      {/* Rotas Protegidas */}
+      <Route element={<PrivateRouter />}>
+        <Route path="/clients" element={<Clients />} />
+        <Route path="/clients/new-client" element={<NewClient />} />
+        <Route path="/clients/:id" element={<ClientDetails />} />
+        <Route path="/category" element={<Categories />} />
+        <Route path="/category/:id" element={<Products />} />
+        <Route path="/category/:id/new-product" element={<NewProduct />} />
+        <Route path="/category/new" element={<NewCategory />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/service/active" element={<ServiceManagement />} />
+        <Route path="/service/active/:code" element={<ServiceActive />} />
+        <Route path="/tabs" element={<Tabs />} />
+        <Route path="/tabs/:tabcode" element={<Tab />} />
+        <Route path="/tabs/new" element={<NewTab />} />
+        <Route path="/profile" element={<Profile />} />
+      </Route>
+
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
-      <Route path="/profile" element={<Profile />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

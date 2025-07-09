@@ -8,12 +8,17 @@ const UserContext = createContext();
 // eslint-disable-next-line react/prop-types
 export function UserProvider({ children }) {
   const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+
   const fetchUser = async () => {
     try {
       const data = await GetUser();
       setUser(data);
     } catch {
       console.log("Erro ao buscar usuário");
+      setUser(null);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -37,7 +42,7 @@ export function UserProvider({ children }) {
   };
 
   return (
-    <UserContext.Provider value={{ user, login, logout }}>
+    <UserContext.Provider value={{ user, login, logout, loading }}>
       {children}
     </UserContext.Provider>
   );
